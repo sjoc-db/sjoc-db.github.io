@@ -1,0 +1,193 @@
+.zero-padding {
+    padding: 0;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.searchbar {
+    width: 100%;
+    margin: 0;
+}
+
+.search-container {
+    background-color: #42B32F;
+}
+
+.filter-button {
+    font-size: 14px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.filter-button:hover {
+    font-size: 14px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.active {
+    background-color: #42B32F;
+    color: white;
+}
+
+#characters {
+    margin: 0 auto;
+}
+
+.gallery_product {
+    margin-bottom: 0;
+    padding: 5px;
+    position:relative;
+    overflow:hidden;
+}
+
+.gallery_product img{
+      max-width: 77px;
+      max-height: 77px;
+      top: 50%;
+      left: 50%;
+}
+
+.sidebar {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /* enables momentum-scrolling on iOS */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    margin-top: 70px;
+}
+
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:14px;
+    color: white;
+}
+
+.sidenav {
+    margin-top: 60px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .filter-button {
+        font-size: 12px;
+    }
+
+    .filter-button:hover {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .filter-button {
+        font-size: 10px;
+    }
+
+    .filter-button:hover {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .filter-button {
+        font-size: 10px;
+    }
+
+    .filter-button:hover {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-button {
+        font-size: 8px;
+    }
+
+    .filter-button:hover {
+        font-size: 8px;
+    }
+
+    .float{
+    	position:fixed;
+    	width:23px;
+    	height:23px;
+    	bottom:20px;
+    	right:20px;
+    }
+
+    .my-float{
+    	margin-top:0;
+    }
+
+    .gallery_product img{
+          max-width: 33px;
+          max-height: 33px;
+    }
+}
