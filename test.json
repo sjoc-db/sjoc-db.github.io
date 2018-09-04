@@ -1,0 +1,153 @@
+[
+	{
+        "name": [{
+            "id" : "10100101",
+            "path" : "./assets/images/icons/Son_Goku.png",
+            "name" : "Son Goku (Kid)",
+            "nickname" : "Turtle Style"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/1980.png",
+            "name" : "1980"
+        }],
+        "series" : "DragonBall",
+        "type": [{
+            "path" : "./assets/images/types/Strength.png",
+            "name" : "Strength"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/DPS.png",
+            "name" : "DPS"
+        }],
+        "lead": [{
+            "description" : "Boost the Attack of <red>Strength</red> units by an <b>Extreme</b> amount",
+            "main" : "Extreme",
+            "stat" : "Attack"
+        }]
+    },{
+        "name": [{
+            "id" : "10100104",
+            "path" : "./assets/images/icons/Jump_Adult_Goku.png",
+            "name" : "Son Goku (Adult)",
+            "nickname" : "Super Saiyan"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/1980.png",
+            "name" : "1980"
+        }],
+        "series" : "DragonBall",
+        "type": [{
+            "path" : "./assets/images/types/Heart.png",
+            "name" : "Heart"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/All Rounder.png",
+            "name" : "All Rounder"
+        }],
+        "lead": [{
+            "description" : "Boost the Attack of <red>Strength</red>, <yellow>Heart</yellow> and <green>Technique</green> units by a <b>Large</b> amount",
+            "main" : "Large",
+            "stat" : "Attack"
+        }]
+    },{
+        "name": [{
+            "id" : "10200101",
+            "path" : "./assets/images/icons/Urameshi_Yusuke.png",
+            "name" : "Urameshi Yusuke",
+            "nickname" : "Spirit Detective"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/1990.png",
+            "name" : "1990"
+        }],
+        "series" : "Yu Yu Hakusho",
+        "type": [{
+            "path" : "./assets/images/types/Strength.png",
+            "name" : "Strength"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/DPS.png",
+            "name" : "DPS"
+        }],
+        "lead": [{
+            "description" : "Boost the Attack of <red>Strength</red> units by an <b>Extreme</b> amount",
+            "main" : "Extreme",
+            "stat" : "Attack"
+        }]
+    },{
+        "name": [{
+            "id" : "10100201",
+            "path" : "./assets/images/icons/Hiei.png",
+            "name" : "Hiei",
+            "nickname" : "Dragon of The Darkness Flame"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/1990.png",
+            "name" : "1990"
+        }],
+        "series" : "Yu Yu Hakusho",
+        "type": [{
+            "path" : "./assets/images/types/Technique.png",
+            "name" : "Technique"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/DPS.png",
+            "name" : "DPS"
+        }],
+        "lead": [{
+            "description" : "Boost the Attack of <blue>Agile</blue> and <green>Technique</green> units by a <b>Large</b> amount",
+            "main" : "Large",
+            "stat" : "Attack"
+        }]
+    },{
+        "name": [{
+            "id" : "10400101",
+            "path" : "./assets/images/icons/Hinata_Shoyo.png",
+            "name" : "Hinata Shoyo",
+            "nickname" : "The Strongest Decoy"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/2010.png",
+            "name" : "2010"
+        }],
+        "series" : "Haikyuu",
+        "type": [{
+            "path" : "./assets/images/types/Agile.png",
+            "name" : "Agile"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/DPS.png",
+            "name" : "DPS"
+        }],
+        "lead": [{
+            "description" : "Boost the Attack of <blue>Agile</blue> units by an <b>Extreme</b> amount",
+            "main" : "Extreme",
+            "stat" : "Attack"
+        }]
+    },{
+        "name": [{
+            "id" : "10400201",
+            "path" : "./assets/images/icons/Kageyama_Tobio.png",
+            "name" : "Kageyama Tobio",
+            "nickname" : "King of The Court"
+        }],
+        "year": [{
+            "path" : "./assets/images/years/2010.png",
+            "name" : "2010"
+        }],
+        "series" : "Haikyuu",
+        "type": [{
+            "path" : "./assets/images/types/Technique.png",
+            "name" : "Technique"
+        }],
+        "class": [{
+            "path" : "./assets/images/classes/Support.png",
+            "name" : "Support"
+        }],
+        "lead": [{
+            "description" : "Boost the chance of critical hits of <red>Strength</red> and <green>Technique</green> units by a <b>Large</b> amount",
+            "main" : "Large",
+            "stat" : "Critical Chance"
+        }]
+    }
+]
