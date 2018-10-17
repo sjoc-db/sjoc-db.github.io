@@ -1,4 +1,654 @@
 {
+	"101001010": {
+		"name": "Son Goku (Kid)",
+		"title": "Turtle Style",
+		"era": "1980",
+		"type": "strength",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "f2p",
+		"image_path": "assets/images/Son_Goku.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Adventure",
+			"Pure",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive-skill": [
+			"Boost damage dealt to enemies with the Hand to hand combat characteristic",
+			"Boost the chance of Critical Hits for Agile allies by a Medium amount",
+			"When HP is below 50%, this unit counters every normal attack"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Kamehameha",
+					"skill-description": "Boost the Damage Dealt to enemies with the Monster characteristic by an Extreme amount for 2 turns, inflict 710% dmg to target enemy",
+					"initial-cooldown": "51",
+					"max-cooldown": "42"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Bachokama Mashi",
+					"skill-description": "Inflict 150% damage to the enemy main team",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Reserve Power",
+					"skill-description": "Boost the Attack of this unit by an Extreme amount for 4 turns, remove one stat reducing debuff from this unit",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "The Power of Master Roshi's Teachings",
+					"skill-description": "Reduce the Defence of enemies from Dragon Ball by an Extreme amount for 4 turns, inflict 210% damage to the target",
+					"initial-cooldown": "37",
+					"max-cooldown": "28"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"strength-lead",
+			"attack-lead",
+			"anti-characteristics",
+			"anti-hand-to-hand-combat",
+			"type-booster",
+			"agile-booster",
+			"stat-booster",
+			"conditional-counter",
+			"critical-chance-booster",
+			"anti-monster",
+			"single-hitter",
+			"single-target-single-hitter",
+			"main-target-single-hitter",
+			"attack-booster",
+			"conditional-defence-reducer"
+		]
+	},
+	"101001040": {
+		"name": "Son Goku (Adult)",
+		"title": "The Saiyan Raised on Earth",
+		"era": "1980",
+		"type": "heart",
+		"class": "all-rounder",
+		"series": "Dragon Ball",
+		"obtainable": "limited-gacha",
+		"image_path": "assets/images/Son_Goku_Adult.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Pure",
+			"Fighting Spirit",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"passive-skill": [
+			"Boost the Attack of Main Team Allies by a Large amount",
+			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
+			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Genki Dama (Spirit Bomb)",
+					"skill-description": "Inflict 300% damage to the Target Enemy and a further 300% to the whole enemy Main Team",
+					"initial-cooldown": "69",
+					"max-cooldown": "60"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Kamehameha",
+					"skill-description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Kiai",
+					"skill-description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Full Nelson",
+					"skill-description": "Inflict 300% damage to all Enemy Supports ",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"strength-lead",
+			"heart-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"main-attack-booster",
+			"defence-booster",
+			"anti-characteristics",
+			"anti-hand-to-hand-combat",
+			"single-hitter",
+			"single-target-single-hitter",
+			"main-target-single-hitter",
+			"debuffer",
+			"defence-reducer",
+			"rollback-cooldown",
+			"support-target-single-hitter"
+		]
+	},
+	"101001041": {
+		"name": "Son Goku (Adult)",
+		"title": "Super Saiyan",
+		"era": "1980",
+		"type": "heart",
+		"class": "all-rounder",
+		"series": "Dragon Ball",
+		"obtainable": "limited-gacha",
+		"image_path": "assets/images/Jump_Adult_Goku.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Pure",
+			"Fighting Spirit",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength, Heart and Technique units by a Large amount",
+		"passive-skill": [
+			"Boost the Attack of Main Team Allies by a Large amount",
+			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
+			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Super Kamehameha",
+					"skill-description": "Inflict 600% damage to entire enemy team, roll back enemy skill gauge by 20%",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Kamehameha",
+					"skill-description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Kiai",
+					"skill-description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Full Nelson",
+					"skill-description": "Inflict 300% damage to all Enemy Supports",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-4": {
+					"skill-name": "Warrior of Wrath",
+					"skill-description": "Increase the Speed and chance of Critical Hits for this unit by an Extreme amount for 4 turns, additionally, increase this units number of normal attacks by +1 for 3 turns",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"strength-lead",
+			"heart-lead",
+			"technique-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"main-attack-booster",
+			"defence-booster",
+			"anti-characteristics",
+			"anti-hand-to-hand-combat",
+			"single-hitter",
+			"single-target-single-hitter",
+			"main-target-single-hitter",
+			"debuffer",
+			"defence-reducer",
+			"rollback-cooldown",
+			"support-target-single-hitter",
+			"speed-booster",
+			"self-speed-booster",
+			"critical-chance-booster",
+			"self-critical-chance-booster",
+			"hit-increaser",
+			"self-hit-increaser"
+		]
+	},
+	"101002010": {
+		"name": "Krillin",
+		"title": "Turtle Style",
+		"era": "1980",
+		"type": "technique",
+		"class": "support",
+		"series": "Dragon Ball",
+		"obtainable": "gacha",
+		"image_path": "assets/images/Krillin.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Hard Worker",
+			"Light"
+		],
+		"leader-skill": "Boost the chance of Critical hits for Technique and Physical units by a Large amount",
+		"passive-skill": [
+			"Boost Speed by a Medium amount",
+			"Boost the Speed of Technique allies by a Medium amount",
+			"Remove weakness debuffs from this unit twice"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Kamehameha",
+					"skill-description": "Inflict 400% damage to the target and roll back their cooldowns by 10%, furthermore, inflict 400% damage to support slot enemies",
+					"initial-cooldown": "57",
+					"max-cooldown": "48"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Assist",
+					"skill-description": "Boost the chance of Critical Hits for main team allies by a Large amount for 4 turns and boost their number of normal attacks by +1 for 4 turns",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Flipped",
+					"skill-description": "Reduce the Attack of main team enemies by a Medium amount for 4 turns and chance to Blind them for 4 turns",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Wisdom of the Turtle Style",
+					"skill-description": "Negate all positive buffs on the enemy main team",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"technique-lead",
+			"physical-lead",
+			"critical-chance-lead",
+			"stat-booster",
+			"speed-booster",
+			"type-booster",
+			"technique-booster",
+			"single-hitter",
+			"single-target-single-hitter",
+			"rollback-cooldown",
+			"support-target-single-hitter",
+			"random-target-single-hitter",
+			"critical-chance-booster",
+			"main-hit-increaser",
+			"debuffer",
+			"attack-reducer",
+			"blinder",
+			"enemy-main-positive-buff-negator"
+		]
+	},
+	"101003010": {
+		"name": "Yamcha",
+		"title": "The Rogue in the Wilderness",
+		"era": "1980",
+		"type": "intelligence",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "gacha",
+		"image_path": "assets/images/Yamcha.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Sly",
+			"Evil"
+		],
+		"leader-skill": "Boost the Attack of Intelligence units by an Extreme amount",
+		"passive-skill": [
+			"Boost the chance of Critical Hits",
+			"Boost the Attack of intelligence allies",
+			"Roll-forward the cooldown of this units skills by 50% once at the start of battle"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "",
+					"skill-description": "Attack target enemy 5 times for 150% dmg ",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "",
+					"skill-description": "140% dmg to target enemy, chance to stun for 2 turns",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "",
+					"skill-description": "Increase own crit rate by an extreme amount for 4 turns, adds +1 to normal attack for 4 turns ",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "",
+					"skill-description": "230% dmg to target enemy, blocks damage twice",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"intelligence-lead",
+			"attack-lead",
+			"stat-booster",
+			"critical-chance-booster",
+			"attack-booster",
+			"type-booster",
+			"intelligence-booster",
+			"cooldown-reducer",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"single-hitter",
+			"single-target-single-hitter",
+			"stunner",
+			"self-critical-chance-booster",
+			"self-hit-increaser",
+			"blocker"
+		]
+	},
+	"101004010": {
+		"name": "Piccolo",
+		"title": "Rebirth of the Great Demon King",
+		"era": "1980",
+		"type": "technique",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "gacha",
+		"image_path": "assets/images/Piccolo.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Rival",
+			"Evil"
+		],
+		"leader-skill": "Boost the Attack of Intelligence units by an Extreme amount",
+		"passive-skill": [
+			"Prevent Ultimate Attack Seal on this unit once from the start of battle",
+			"When this unit's HP is 50% or less, boost the effect of his healing skill by an Extreme amount",
+			"When this unit's HP is 50% or more, boost his Ultimate Attack Damage by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "The Demon King's Last Resort",
+					"skill-description": "Inflict 700% damage to all enemies",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Ki Waves",
+					"skill-description": "Inflict 300% damage to the target and reduce their Ultimate Attack Damage by a Large amount for 2 turns",
+					"initial-cooldown": "35",
+					"max-cooldown": "26"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Regeneration",
+					"skill-description": "Recover this unit's HP my a Medium amount",
+					"initial-cooldown": "29",
+					"max-cooldown": "20"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Eye Beam",
+					"skill-description": "Roll back the cooldowns of random enemy supports by 5%, furthermore inflict 100% damage to the target",
+					"initial-cooldown": "37",
+					"max-cooldown": "28"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"technique-lead",
+			"attack-lead",
+			"ultimate-seal-preventer",
+			"conditional-healing-booster",
+			"conditional-ultimate-damage-booster",
+			"single-hitter",
+			"all-single-hitter",
+			"single-target-single-hitter",
+			"ultimate-damage-reducer",
+			"healer",
+			"self-healer",
+			"rollback-cooldown",
+			"random-target-single-hitter",
+			"support-target-single-hitter"
+		]
+	},
+	"101005010": {
+		"name": "Vegeta",
+		"title": "The Proud Saiyan Prince",
+		"era": "1980",
+		"type": "strength",
+		"class": "all-rounder",
+		"series": "Dragon Ball",
+		"obtainable": "raid",
+		"image_path": "assets/images/Vegeta.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Rival",
+			"Royal",
+			"Alien"
+		],
+		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of allies with the Rival characteristic by a Medium amount",
+			"Boost the Ultimate Attack Damage of allies with the Rival characteristic by a Large amount",
+			"Reduce the Damage Dealt to this unit by enemies with the Protagonist characteristic by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Full Power Energy Wave",
+					"skill-description": "Inflict 500% damage to target enemy, Negate all positive buffs on enemy supports and then inflict 400% damage to both enemy supports",
+					"initial-cooldown": "41",
+					"max-cooldown": "32"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Explosive Wave",
+					"skill-description": "Inflict 200% damage to the enemy main team, furthermore, roll back the skill gauge of all main team enemies with the Protagonist characteristic by 10%",
+					"initial-cooldown": "33",
+					"max-cooldown": "24"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Pride of the Saiyans",
+					"skill-description": "Remove all status conditions on this unit and heal by a Medium amount",
+					"initial-cooldown": "26",
+					"max-cooldown": "17"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Power Level Control",
+					"skill-description": "Boost this unit's Attack by a Large amount for 3 turns, furthermore, boost this unit's Damage Dealt to enemies with the Protagonist characteristic by an Extreme amount",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"strength-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"characteristics-booster",
+			"rival-booster",
+			"ultimate-damage-booster",
+			"anti-protagonist",
+			"single-hitter",
+			"single-target-single-hitter",
+			"enemy-support-buff-negator",
+			"support-target-single-hitter",
+			"rollback-cooldown",
+			"rollback-protagonist-cooldown",
+			"self-debuff-remover",
+			"healer",
+			"self-healer",
+			"damage-booster"
+		]
+	},
+	"101006010": {
+		"name": "Son Gohan",
+		"title": "Child of Son Goku",
+		"era": "1980",
+		"type": "strength",
+		"class": "all-rounder",
+		"series": "Dragon Ball",
+		"obtainable": "f2p",
+		"image_path": "assets/images/Son_Gohan.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Weak",
+			"Prodigy"
+		],
+		"leader-skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"passive-skill": [
+			"When HP is below 80% HP, Boost this units Attack by a Medium amount",
+			"When HP is below 50% HP, Boost this units damage dealt by a Large amount",
+			"Boost the ATK of allies with the Alien characteristic by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "",
+					"skill-description": "Inflict 710% of this units Attack to target enemy, chance to blind for 2 turns",
+					"initial-cooldown": "74",
+					"max-cooldown": "65"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "",
+					"skill-description": "Boost Attack by an Extreme amount against Intelligence units and characters with the Alien characteristic for 4 turns, Inflict 210% of this units Attack to target enemy",
+					"initial-cooldown": "37",
+					"max-cooldown": "28"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "",
+					"skill-description": "Inflict 3 hits of 60% of this units attack to target enemy",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "",
+					"skill-description": "Boost this units Attack by an Extreme amount ",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"strength-lead",
+			"heart-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"characteristics-booster",
+			"alien-booster",
+			"single-hitter",
+			"single-target-single-hitter",
+			"blinder",
+			"anti-intelligence",
+			"anti-alien",
+			"multi-hitter",
+			"single-target-multi-hitter"
+		]
+	},
 	"167": {
 		"name": "Hijikata Toshiro",
 		"title": "Deputy Chief of the Shinsengumi",
@@ -7,7 +657,7 @@
 		"class": "all-rounder",
 		"series": "Gintama",
 		"obtainable": "pvp-exclusive",
-		"image-path": "assets/images/Hijikata_Toshiro.png",
+		"image_path": "assets/images/Hijikata_Toshiro.png",
 		"characteristics": [
 			"swordsman",
 			"manliness",
@@ -58,7 +708,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"extreme-lead",
 			"agile-lead",
 			"attack-lead",
@@ -86,7 +736,7 @@
 		"class": "all-rounder",
 		"series": "Bakuman",
 		"obtainable": "f2p",
-		"image-path": "assets/images/Ashirogi_Muto.png",
+		"image_path": "assets/images/Ashirogi_Muto.png",
 		"characteristics": [
 			"student",
 			"pro",
@@ -139,7 +789,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"extreme-lead",
 			"intelligence-lead",
 			"attack-lead",
@@ -166,7 +816,7 @@
 		"class": "all-rounder",
 		"series": "JoJos Bizarre Adventure",
 		"obtainable": "gacha",
-		"image-path": "assets/images/Bruno_Bucciarati.png",
+		"image_path": "assets/images/Bruno_Bucciarati.png",
 		"characteristics": [
 			"manliness",
 			"gang"
@@ -216,7 +866,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"large-lead",
       "agile-lead",
 			"technique-lead",
@@ -243,7 +893,7 @@
 		"class": "all-rounder",
 		"series": "Captain Tsubasa",
 		"obtainable": "limited-gacha",
-		"image-path": "assets/images/Tsubasa_Oozora.png",
+		"image_path": "assets/images/Tsubasa_Oozora.png",
 		"characteristics": [
       "student",
       "athlete",
@@ -296,7 +946,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"large-lead",
       "agile-lead",
 			"technique-lead",
@@ -325,7 +975,7 @@
 		"class": "all-rounder",
 		"series": "Captain Tsubasa",
 		"obtainable": "limited-gacha",
-		"image-path": "assets/images/Jump_Tsubasa.png",
+		"image_path": "assets/images/Jump_Tsubasa.png",
 		"characteristics": [
       "student",
       "athlete",
@@ -386,7 +1036,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"extreme-lead",
       "agile-lead",
 			"technique-lead",
@@ -417,7 +1067,7 @@
 		"class": "tank",
 		"series": "Captain Tsubasa",
 		"obtainable": "f2p",
-		"image-path": "assets/images/Ryo_Ishizaki.png",
+		"image_path": "assets/images/Ryo_Ishizaki.png",
 		"characteristics": [
       "student",
       "athlete",
@@ -468,7 +1118,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"extreme-lead",
       "physical-lead",
 			"defence-lead",
@@ -490,7 +1140,7 @@
 		"class": "all-rounder",
 		"series": "My Hero Academia",
 		"obtainable": "raid",
-		"image-path": "assets/images/All_Might.png",
+		"image_path": "assets/images/All_Might.png",
 		"characteristics": [
       "hero",
       "superhuman",
@@ -544,7 +1194,7 @@
 				}
 			}
 		],
-		"category": [
+		"categories": [
 			"large-lead",
       "heart-lead",
       "physical-lead",
