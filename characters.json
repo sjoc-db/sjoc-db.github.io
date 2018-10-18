@@ -7,7 +7,8 @@
 		"class": "dps",
 		"series": "Dragon Ball",
 		"obtainable": "f2p",
-		"image_path": "assets/images/Son_Goku.png",
+		"image_card_path": "assets/images/cards/Son_Goku.png",
+		"image_portrait_path": "assets/images/portraits/Son_Goku.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Adventure",
@@ -86,7 +87,8 @@
 		"class": "all-rounder",
 		"series": "Dragon Ball",
 		"obtainable": "limited-gacha",
-		"image_path": "assets/images/Son_Goku_Adult.png",
+		"image_card_path": "assets/images/cards/Son_Goku_Adult.png",
+		"image_portrait_path": "assets/images/portraits/Son_Goku_Adult.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Pure",
@@ -166,7 +168,8 @@
 		"class": "all-rounder",
 		"series": "Dragon Ball",
 		"obtainable": "limited-gacha",
-		"image_path": "assets/images/Jump_Adult_Goku.png",
+		"image_card_path": "assets/images/cards/Jump_Adult_Goku.png",
+		"image_portrait_path": "assets/images/portraits/Jump_Adult_Goku.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Pure",
@@ -261,7 +264,8 @@
 		"class": "support",
 		"series": "Dragon Ball",
 		"obtainable": "gacha",
-		"image_path": "assets/images/Krillin.png",
+		"image_card_path": "assets/images/cards/Krillin.png",
+		"image_portrait_path": "assets/images/portraits/Krillin.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Hard Worker",
@@ -342,7 +346,8 @@
 		"class": "dps",
 		"series": "Dragon Ball",
 		"obtainable": "gacha",
-		"image_path": "assets/images/Yamcha.png",
+		"image_card_path": "assets/images/cards/Yamcha.png",
+		"image_portrait_path": "assets/images/portraits/Yamcha.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Sly",
@@ -421,7 +426,8 @@
 		"class": "dps",
 		"series": "Dragon Ball",
 		"obtainable": "gacha",
-		"image_path": "assets/images/Piccolo.png",
+		"image_card_path": "assets/images/cards/Piccolo.png",
+		"image_portrait_path": "assets/images/portraits/Piccolo.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Rival",
@@ -498,7 +504,8 @@
 		"class": "all-rounder",
 		"series": "Dragon Ball",
 		"obtainable": "raid",
-		"image_path": "assets/images/Vegeta.png",
+		"image_card_path": "assets/images/cards/Vegeta.png",
+		"image_portrait_path": "assets/images/portraits/Vegeta.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Rival",
@@ -580,7 +587,8 @@
 		"class": "all-rounder",
 		"series": "Dragon Ball",
 		"obtainable": "f2p",
-		"image_path": "assets/images/Son_Gohan.png",
+		"image_card_path": "assets/images/cards/Son_Gohan.png",
+		"image_portrait_path": "assets/images/portraits/Son_Gohan.png",
 		"characteristics": [
 			"Hand to Hand Combat",
 			"Weak",
@@ -649,6 +657,671 @@
 			"single-target-multi-hitter"
 		]
 	},
+	"134001010": {
+		"name": "Mankichi Togawa",
+		"title": "Hoodlum Admiral",
+		"era": "<1970s",
+		"type": "heart",
+		"class": "support",
+		"series": "Otoko Ippiki Gaki-Daisho",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Mankichi_Togawa.png",
+		"image_portrait_path": "assets/images/portraits/Mankichi_Togawa.png",
+		"characteristics": [
+			"Student",
+			"Manliness",
+			"Delinquent",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the chance of Critical Hits for Heart units by an Extreme amount",
+		"passive-skill": [
+			"Boost this unit's Damage Dealt to units with the Delinquent characteristic",
+			"Boost the Attack of all team members that are Heart type",
+			"Boost the HP of all team members by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "The Decree of the Brat General",
+					"skill-description": "Roll forward the cooldowns of all allies (not including this unit) by 30% and Boost the Attack of main team allies by an Extreme amount for 4 turns",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Inspiration",
+					"skill-description": "Boost main team Defence by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Fired Up",
+					"skill-description": "Boost the Defence of this unit by an Extreme amount for 4 turns and Block 2 hits of damage for this unit",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Advance Troopers",
+					"skill-description": "Boost main team Attack and chance of Critical Hits by a Large amount for 4 turns and Boost main team Speed by a Medium amount for 4 turns ",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"heart-lead",
+			"critical-chance-lead",
+			"anti-characteristics",
+			"anti-delinquent",
+			"stat-booster",
+			"type-booster",
+			"attack-booster",
+			"heart-booster",
+			"hp-booster",
+			"cooldown-reducer",
+			"defence-booster",
+			"eot-healer",
+			"main-eot-healer",
+			"blocker",
+			"critical-chance-booster",
+			"speed-booster"
+		]
+	},
+	"137001010": {
+		"name": "Ryotsu Kankichi",
+		"title": "Immortal Police Work",
+		"era": "<1970s",
+		"type": "physical",
+		"class": "support",
+		"series": "Kochikame",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Ryotsu_Kankichi.png",
+		"image_portrait_path": "assets/images/portraits/Ryotsu_Kankichi.png",
+		"characteristics": [
+			"Manliness",
+			"Trouble Maker",
+			"Money",
+			"Order",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the chance of Critical Hits for Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost this unit's Damage Dealt to units with the Order characteristic",
+			"Boost the Ultimate Attack Damage of all team members that are Physical type",
+			"When the number of team members is 3 or less, all members of your team will gain an additional attack per turn"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "I'll Beat It!",
+					"skill-description": "Inflict 5 hits of 150% damage to the target",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Trouble Maker",
+					"skill-description": "Inflict 150% damage to the enemy main team",
+					"initial-cooldown": "34",
+					"max-cooldown": "25"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Iron Fist Punch",
+					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Carefully Rooted",
+					"skill-description": "Negate all positive buffs on the enemy main team",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"critical-chance-lead",
+			"anti-characteristics",
+			"anti-order",
+			"type-booster",
+			"physical-booster",
+			"ultimate-damage-booster",
+			"stat-booster",
+			"hit-increaser",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"single-hitter",
+			"main-target-single-hitter",
+			"single-target-single-hitter",
+			"stunner",
+			"enemy-main-positive-buff-negator"
+		]
+	},
+	"141001010": {
+		"name": "Hiroshi & Pyonkichi",
+		"title": "Rooted to a Flat Surface Frog",
+		"era": "<1970s",
+		"type": "physical",
+		"class": "dps",
+		"series": "Dokonjo Gaeru",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Hiroshi_Pyonkichi.png",
+		"image_portrait_path": "assets/images/portraits/Hiroshi_Pyonkichi.png",
+		"characteristics": [
+			"Student",
+			"Persistent",
+			"Water",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost the unit's chance of Critical Hits",
+			"Boost the chance of Critical Hits for all team members that are Heart type by a Medium amount",
+			"When this unit's HP is 50% or less, boost this unit's Attack by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Biting",
+					"skill-description": "Inflict 400% damage to the enemy main team",
+					"initial-cooldown": "51",
+					"max-cooldown": "42"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Bottom Power",
+					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Hiroshis Palace",
+					"skill-description": "Inflict 100% damage to the target and reduce their Attack and Defence by a Medium amount for 4 turns",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Dirty!",
+					"skill-description": "Inflict 3 hits of 80% damage to the target, Boost this unit's normal attacks per turn by +1 for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"type-booster",
+			"heart-booster",
+			"stat-booster",
+			"critical-chance-booster",
+			"main-target-single-hitter",
+			"single-hitter",
+			"main-target-single-hitter",
+			"single-target-single-hitter",
+			"stunner",
+			"debuffer",
+			"attack-reducer",
+			"defence-reducer",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"hit-increaser",
+			"eot-healer",
+			"main-eot-healer"
+		]
+	},
+	"150001010": {
+		"name": "Ryuuji Takane",
+		"title": "Jr. Japanese Champion",
+		"era": "<1970s",
+		"type": "strength",
+		"class": "dps",
+		"series": "Ring ni Kakero",
+		"obtainable": "pvp",
+		"image_card_path": "assets/images/cards/Ryuuji_Takane.png",
+		"image_portrait_path": "assets/images/portraits/Ryuuji_Takane.png",
+		"characteristics": [
+			"Athlete",
+			"Hard Worker",
+			"Hot Blooded",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength and Physical units by a Large amount",
+		"passive-skill": [
+			"Boost this unit's Damage Dealt to units with the Hand to Hand Combat characteristic",
+			"25% chance for this unit to counter any normal attack",
+			"Prevent Stun to this unit once"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Winning the Rainbow",
+					"skill-description": "Inflict 450% damage to the target enemy and roll back their cool downs by 15%",
+					"initial-cooldown": "37",
+					"max-cooldown": "28"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Boomerang Hook",
+					"skill-description": "Inflict 100% damage to the target enemy and there is a chance to seal their Ultimate Attack, If the enemy is Intelligence type, the seal is guaranteed for 2 turns ",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Boomerang Square",
+					"skill-description": "Inflict 140% damage to the target enemy an there is a chance to stun for 2 turns ",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Boomerang Telios",
+					"skill-description": "Inflict 150% damage to the target enemy, this attack ignores enemy defence ",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"physical-lead",
+			"strength-lead",
+			"attack-lead",
+			"anti-characteristics",
+			"anti-hand-to-hand-combat",
+			"counterer",
+			"single-hitter",
+			"single-target-single-hitter",
+			"rollback-cooldown",
+			"sealer",
+			"ultimate-sealer",
+			"anti-type",
+			"anti-intelligence",
+			"stunner",
+			"ignore-defence"
+		]
+	},
+	"151001010": {
+		"name": "Takao Taniguchi",
+		"title": "Captain of Sumitani High",
+		"era": "<1970s",
+		"type": "intelligence",
+		"class": "tank",
+		"series": "Play Ball",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Takao_Taniguchi.png",
+		"image_portrait_path": "assets/images/portraits/Takao_Taniguchi.png",
+		"characteristics": [
+			"Student",
+			"Athlete",
+			"Persistent",
+			"Hard Worker",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Defence of Intelligence units by an Extreme amount",
+		"passive-skill": [
+			"Boost this unit's Defence against attacks from enemies with the Athlete characteristic",
+			"Boost the HP of all team members that are Intelligence type by a Medium amount",
+			"When this units HP is 50% or less, boost this unit's Attack by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Fork Ball",
+					"skill-description": "Boost Damage Dealt to units with the Athlete characteristic by a Super Mega amount for 2 turns and Inflict 710% damage to the target enemy",
+					"initial-cooldown": "59",
+					"max-cooldown": "50"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "No.4 Batter",
+					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Analysis",
+					"skill-description": "Reduce the Attack of the enemy main team by a Medium amount for 4 turns, furthermore, chance to Blind enemies for 4 turns",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Captains Dignity",
+					"skill-description": "Boost the Defence of all main team allies by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns. If the ally has the Athlete characteristic, boost their Attack by an Extreme amount for 4 turns",
+					"initial-cooldown": "54",
+					"max-cooldown": "45"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"intelligence-lead",
+			"defence-lead",
+			"defence-booster",
+			"anti-characteristics",
+			"anti-athlete",
+			"stat-booster",
+			"hp-booster",
+			"type-booster",
+			"intelligence-booster",
+			"attack-booster",
+			"single-hitter",
+			"single-target-single-hitter",
+			"stunner",
+			"debuffer",
+			"attack-reducer",
+			"blinder",
+			"eot-healer",
+			"main-eot-healer",
+			"characteristics-booster",
+			"athlete-booster"
+		]
+	},
+	"167001010": {
+		"name": "Suguru Kinniku",
+		"title": "Prince of Planet Kinniku",
+		"era": "<1970s",
+		"type": "physical",
+		"class": "dps",
+		"series": "Kinnikuman",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Suguru.png",
+		"image_portrait_path": "assets/images/portraits/Suguru.png",
+		"characteristics": [
+			"Hero",
+			"Superhuman",
+			"Royal",
+			"Hand to Hand Combat",
+			"Alien",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of Physical team members by a Medium amount",
+			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
+			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Double Kinniku Buster",
+					"skill-description": "Inflict 2 hits of 400% damage to the target",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Kajiba no Kuso Djikara",
+					"skill-description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
+					"initial-cooldown": "29",
+					"max-cooldown": "20"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Fu Rin Ka Zan",
+					"skill-description": "Inflict 4 hits of 150% damage to the target",
+					"initial-cooldown": "33",
+					"max-cooldown": "24"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Kinniku Buster",
+					"skill-description": "Inflict 400% damage that ignores defence to the target ",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"physical-booster",
+			"anti-type",
+			"anti-heart",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"guts",
+			"single-hitter",
+			"single-target-single-hitter"
+		]
+	},
+	"167001011": {
+		"name": "Suguru Kinniku",
+		"title": "Miracle Comeback Fighter",
+		"era": "<1970s",
+		"type": "physical",
+		"class": "dps",
+		"series": "Kinnikuman",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Jump_Suguru.png",
+		"image_portrait_path": "assets/images/portraits/Jump_Suguru.png",
+		"characteristics": [
+			"Hero",
+			"Superhuman",
+			"Royal",
+			"Hand to Hand Combat",
+			"Alien",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength and Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of Physical team members by a Medium amount",
+			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
+			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Kinniku Driver",
+					"skill-description": "Boost this unit's Damage Dealt to Heart enemies by a Mega amount for 1 turn, inflict 600% damage to the target and a further 400% damage to all enemies",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Kajiba no Kuso Djikara",
+					"skill-description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
+					"initial-cooldown": "29",
+					"max-cooldown": "20"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Fu Rin Ka Zan",
+					"skill-description": "Inflict 4 hits of 150% damage to the target",
+					"initial-cooldown": "33",
+					"max-cooldown": "24"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Kinniku Buster",
+					"skill-description": "Inflict 400% damage that ignores defence to the target ",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-4": {
+					"skill-name": "The Power of Friendship",
+					"skill-description": "Boost the Attack of all Physical team members by an Extreme amount for 2 turns and make them immune to Ultimate Attack Rollback for 2 turns ",
+					"initial-cooldown": "27",
+					"max-cooldown": "18"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"physical-booster",
+			"anti-type",
+			"anti-heart",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"all-target-single-hitter",
+			"guts",
+			"single-hitter",
+			"single-target-single-hitter",
+			"ultimate-rollback-preventer"
+		]
+	},
+	"173001010": {
+		"name": "Cobra",
+		"title": "Immortal Space Pirate",
+		"era": "<1970s",
+		"type": "agile",
+		"class": "all-rounder",
+		"series": "Cobra",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Cobra.png",
+		"image_portrait_path": "assets/images/portraits/Cobra.png",
+		"characteristics": [
+			"Hero",
+			"Protagonist",
+			"Adventure"
+		],
+		"leader-skill": "Boost the Attack of Agile units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of all members of your team that are Agile type by a Medium amount",
+			"Boost this unit's Damage Dealt to enemies with the Alien characteristic by a Large amount",
+			"Boost the Defence of all members of your team with the Heroine characteristic by an Extreme amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Psychogun",
+					"skill-description": "Inflict 450% damage to the enemy main team that ignores enemy defence, furthermore, roll-back their skills by 15% ",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Preparatory Cigar",
+					"skill-description": "Inflict 150% damage to the enemy main team",
+					"initial-cooldown": "33",
+					"max-cooldown": "24"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Colt Magnum .77 Python",
+					"skill-description": "Inflict 400% damage to the target and a further 250% to the enemy main team ",
+					"initial-cooldown": "45",
+					"max-cooldown": "36"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Slight Words",
+					"skill-description": "Reduce the Ultimate Attack Damage of enemy supports by a Large amount for 2 turns ",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"agile-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"agile-booster",
+			"anti-characteristics",
+			"anti-alien",
+			"defence-booster",
+			"heroine-booster",
+			"characteristics-booster",
+			"single-hitter",
+			"main-target-single-hitter",
+			"ignore-defence",
+			"rollback-cooldown",
+			"single-target-single-hitter",
+			"ultimate-damage-reducer"
+		]
+	},
+
 	"167": {
 		"name": "Hijikata Toshiro",
 		"title": "Deputy Chief of the Shinsengumi",
@@ -657,7 +1330,8 @@
 		"class": "all-rounder",
 		"series": "Gintama",
 		"obtainable": "pvp-exclusive",
-		"image_path": "assets/images/Hijikata_Toshiro.png",
+		"image_card_path": "assets/images/cards/Hijikata_Toshiro.png",
+		"image_portrait_path": "assets/images/portraits/Hijikata_Toshiro.png",
 		"characteristics": [
 			"swordsman",
 			"manliness",
@@ -736,7 +1410,8 @@
 		"class": "all-rounder",
 		"series": "Bakuman",
 		"obtainable": "f2p",
-		"image_path": "assets/images/Ashirogi_Muto.png",
+		"image_card_path": "assets/images/cards/Ashirogi_Muto.png",
+		"image_portrait_path": "assets/images/portraits/Ashirogi_Muto.png",
 		"characteristics": [
 			"student",
 			"pro",
@@ -808,331 +1483,335 @@
 			"dps-booster"
 		]
 	},
-  "169": {
-		"name": "Bruno Bucciarati",
-		"title": "Escort Team Leader",
-		"era": "1990",
-		"type": "agile",
-		"class": "all-rounder",
-		"series": "JoJos Bizarre Adventure",
-		"obtainable": "gacha",
-		"image_path": "assets/images/Bruno_Bucciarati.png",
-		"characteristics": [
-			"manliness",
-			"gang"
-		],
-		"leader-skill": "Boost the Defence of Agile and Technique units by a Large amount",
-		"passive-skill": [
-			"Once at the start of battle, roll forward the skill gauge of characters with the Gang characteristic by 30%",
-			"Negate 1 Status debuff for characters with the Gang characteristic",
-			"Reduce Damage Received by this unit by a Medium amount"
-		],
-		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
-		},
-		"skill": [{
-				"ultimate": {
-					"skill-name": "Sticky Fingers",
-					"skill-description": "Reduce the Damage Dealt by the enemy main team by an Extreme amount for 2 turns if they have the Gang characteristic reduce by a further Medium amount",
-					"initial-cooldown": "43",
-					"max-cooldown": "34"
-				}
+	"169": {
+			"name": "Bruno Bucciarati",
+			"title": "Escort Team Leader",
+			"era": "1990",
+			"type": "agile",
+			"class": "all-rounder",
+			"series": "JoJos Bizarre Adventure",
+			"obtainable": "gacha",
+				"image_card_path": "assets/images/cards/Bruno_Bucciarati.png",
+			"image_portrait_path": "assets/images/portraits/Bruno_Bucciarati.png",
+			"characteristics": [
+				"manliness",
+				"gang"
+			],
+			"leader-skill": "Boost the Defence of Agile and Technique units by a Large amount",
+			"passive-skill": [
+				"Once at the start of battle, roll forward the skill gauge of characters with the Gang characteristic by 30%",
+				"Negate 1 Status debuff for characters with the Gang characteristic",
+				"Reduce Damage Received by this unit by a Medium amount"
+			],
+			"stats": {
+				"hp": "0",
+				"attack": "0",
+				"defence": "0",
+				"speed": "0"
 			},
-			{
-				"skill-1": {
-					"skill-name": "The Taste of a Liar",
-					"skill-description": "Chance to inflict Fear to a random enemy for 2 turns ",
-					"initial-cooldown": "35",
-					"max-cooldown": "26"
+			"skill": [{
+					"ultimate": {
+						"skill-name": "Sticky Fingers",
+						"skill-description": "Reduce the Damage Dealt by the enemy main team by an Extreme amount for 2 turns if they have the Gang characteristic reduce by a further Medium amount",
+						"initial-cooldown": "43",
+						"max-cooldown": "34"
+					}
+				},
+				{
+					"skill-1": {
+						"skill-name": "The Taste of a Liar",
+						"skill-description": "Chance to inflict Fear to a random enemy for 2 turns ",
+						"initial-cooldown": "35",
+						"max-cooldown": "26"
+					}
+				},
+				{
+					"skill-2": {
+						"skill-name": "Long Reaching Fist",
+						"skill-description": "Inflict 150% damage to all enemy supports",
+						"initial-cooldown": "31",
+						"max-cooldown": "22"
+					}
+				},
+				{
+					"skill-3": {
+						"skill-name": "Zipped Apart",
+						"skill-description": "Inflict 200% damage to the enemy main team and reduce their Attack by a Medium amount for 1 turn ",
+						"initial-cooldown": "33",
+						"max-cooldown": "24"
+					}
 				}
-			},
-			{
-				"skill-2": {
-					"skill-name": "Long Reaching Fist",
-					"skill-description": "Inflict 150% damage to all enemy supports",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
-				}
-			},
-			{
-				"skill-3": {
-					"skill-name": "Zipped Apart",
-					"skill-description": "Inflict 200% damage to the enemy main team and reduce their Attack by a Medium amount for 1 turn ",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
-				}
-			}
-		],
-		"categories": [
-			"large-lead",
-      "agile-lead",
-			"technique-lead",
-			"defence-lead",
-			"cooldown-reducer",
-			"characteristics-booster",
-			"gang-booster",
-			"debuff-preventer",
-			"damage-reducer",
-			"sealer",
-			"skill-sealer",
-			"single-hitter",
-			"support-target-single-hitter",
-			"main-target-single-hitter",
-			"debuffer",
-			"attack-reducer"
-		]
+			],
+			"categories": [
+				"large-lead",
+		"agile-lead",
+				"technique-lead",
+				"defence-lead",
+				"cooldown-reducer",
+				"characteristics-booster",
+				"gang-booster",
+				"debuff-preventer",
+				"damage-reducer",
+				"sealer",
+				"skill-sealer",
+				"single-hitter",
+				"support-target-single-hitter",
+				"main-target-single-hitter",
+				"debuffer",
+				"attack-reducer"
+			]
 	},
-  "170": {
-		"name": "Tsubasa Oozora",
-		"title": "Child of Football",
-		"era": "1980",
-		"type": "technique",
-		"class": "all-rounder",
-		"series": "Captain Tsubasa",
-		"obtainable": "limited-gacha",
-		"image_path": "assets/images/Tsubasa_Oozora.png",
-		"characteristics": [
-      "student",
-      "athlete",
-      "genius",
-      "persistent",
-      "protagonist"
-		],
-		"leader-skill": "Boost the Attack of Agile and Technique units by a Large amount",
-		"passive-skill": [
-			"Boost the Attack of Technique allies by a Large amount",
-			"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
-			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
-		],
-		"stats": {
-			"hp": "9647",
-			"attack": "1870",
-			"defence": "1183",
-			"speed": "38"
-		},
-		"skill": [{
-				"ultimate": {
-					"skill-name": "Overhead Kick",
-					"skill-description": "Inflict 400% damage to the enemy main team",
-					"initial-cooldown": "45",
-					"max-cooldown": "36"
-				}
+	"170": {
+			"name": "Tsubasa Oozora",
+			"title": "Child of Football",
+			"era": "1980",
+			"type": "technique",
+			"class": "all-rounder",
+			"series": "Captain Tsubasa",
+			"obtainable": "limited-gacha",
+				"image_card_path": "assets/images/cards/Tsubasa_Oozora.png",
+			"image_portrait_path": "assets/images/portraits/Tsubasa_Oozora.png",
+			"characteristics": [
+		"student",
+		"athlete",
+		"genius",
+		"persistent",
+		"protagonist"
+			],
+			"leader-skill": "Boost the Attack of Agile and Technique units by a Large amount",
+			"passive-skill": [
+				"Boost the Attack of Technique allies by a Large amount",
+				"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
+				"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
+			],
+			"stats": {
+				"hp": "9647",
+				"attack": "1870",
+				"defence": "1183",
+				"speed": "38"
 			},
-			{
-				"skill-1": {
-					"skill-name": "Playmaker",
-					"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+			"skill": [{
+					"ultimate": {
+						"skill-name": "Overhead Kick",
+						"skill-description": "Inflict 400% damage to the enemy main team",
+						"initial-cooldown": "45",
+						"max-cooldown": "36"
+					}
+				},
+				{
+					"skill-1": {
+						"skill-name": "Playmaker",
+						"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
+						"initial-cooldown": "31",
+						"max-cooldown": "22"
+					}
+				},
+				{
+					"skill-2": {
+						"skill-name": "Diving Header",
+						"skill-description": "Inflict 270% damage to the enemy main team",
+						"initial-cooldown": "32",
+						"max-cooldown": "23"
+					}
+				},
+				{
+					"skill-3": {
+						"skill-name": "Jumping Volley",
+						"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10% ",
+						"initial-cooldown": "32",
+						"max-cooldown": "23"
+					}
 				}
-			},
-			{
-				"skill-2": {
-					"skill-name": "Diving Header",
-					"skill-description": "Inflict 270% damage to the enemy main team",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
-				}
-			},
-			{
-				"skill-3": {
-					"skill-name": "Jumping Volley",
-					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10% ",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
-				}
-			}
-		],
-		"categories": [
-			"large-lead",
-      "agile-lead",
-			"technique-lead",
-			"attack-lead",
-			"stat-booster",
-			"attack-booster",
-			"type-booster",
-			"technique-booster",
-			"cooldown-reducer",
-      "characteristics-booster",
-			"athlete-booster",
-			"hit-increaser",
-			"single-hitter",
-      "main-target-single-hitter",
-      "damage-booster",
-			"ultimate-damage-booster",
-      "single-target-single-hitter",
-      "rollback-cooldown"
-		]
+			],
+			"categories": [
+				"large-lead",
+		"agile-lead",
+				"technique-lead",
+				"attack-lead",
+				"stat-booster",
+				"attack-booster",
+				"type-booster",
+				"technique-booster",
+				"cooldown-reducer",
+		"characteristics-booster",
+				"athlete-booster",
+				"hit-increaser",
+				"single-hitter",
+		"main-target-single-hitter",
+		"damage-booster",
+				"ultimate-damage-booster",
+		"single-target-single-hitter",
+		"rollback-cooldown"
+			]
 	},
-  "171": {
-		"name": "Tsubasa Oozora",
-		"title": "King of the South's Captain",
-		"era": "1980",
-		"type": "technique",
-		"class": "all-rounder",
-		"series": "Captain Tsubasa",
-		"obtainable": "limited-gacha",
-		"image_path": "assets/images/Jump_Tsubasa.png",
-		"characteristics": [
-      "student",
-      "athlete",
-      "genius",
-      "persistent",
-      "protagonist"
-		],
-		"leader-skill": "Boost the Attack of Agile and Technique units by a Extreme amount",
-		"passive-skill": [
-			"Boost the Attack of Technique allies by a Large amount",
-			"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
-			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
-		],
-		"stats": {
-			"hp": "10547",
-			"attack": "2083",
-			"defence": "1286",
-			"speed": "40"
-		},
-		"skill": [{
-				"ultimate": {
-					"skill-name": "Overhead Kick",
-					"skill-description": "Inflict 400% damage to the enemy main team",
-					"initial-cooldown": "45",
-					"max-cooldown": "36"
-				}
+	"171": {
+			"name": "Tsubasa Oozora",
+			"title": "King of the South's Captain",
+			"era": "1980",
+			"type": "technique",
+			"class": "all-rounder",
+			"series": "Captain Tsubasa",
+			"obtainable": "limited-gacha",
+				"image_card_path": "assets/images/cards/Jump_Tsubasa.png",
+			"image_portrait_path": "assets/images/portraits/Jump_Tsubasa.png",
+			"characteristics": [
+		"student",
+		"athlete",
+		"genius",
+		"persistent",
+		"protagonist"
+			],
+			"leader-skill": "Boost the Attack of Agile and Technique units by a Extreme amount",
+			"passive-skill": [
+				"Boost the Attack of Technique allies by a Large amount",
+				"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
+				"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
+			],
+			"stats": {
+				"hp": "10547",
+				"attack": "2083",
+				"defence": "1286",
+				"speed": "40"
 			},
-			{
-				"skill-1": {
-					"skill-name": "Playmaker",
-					"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+			"skill": [{
+					"ultimate": {
+						"skill-name": "Overhead Kick",
+						"skill-description": "Inflict 400% damage to the enemy main team",
+						"initial-cooldown": "45",
+						"max-cooldown": "36"
+					}
+				},
+				{
+					"skill-1": {
+						"skill-name": "Playmaker",
+						"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
+						"initial-cooldown": "31",
+						"max-cooldown": "22"
+					}
+				},
+				{
+					"skill-2": {
+						"skill-name": "Diving Header",
+						"skill-description": "Inflict 270% damage to the enemy main team",
+						"initial-cooldown": "32",
+						"max-cooldown": "23"
+					}
+				},
+				{
+					"skill-3": {
+						"skill-name": "Jumping Volley",
+						"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
+						"initial-cooldown": "32",
+						"max-cooldown": "23"
+					}
+				},
+				{
+					"skill-4": {
+						"skill-name": "Miracle Shot",
+						"skill-description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
+						"initial-cooldown": "31",
+						"max-cooldown": "22"
+					}
 				}
-			},
-			{
-				"skill-2": {
-					"skill-name": "Diving Header",
-					"skill-description": "Inflict 270% damage to the enemy main team",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
-				}
-			},
-			{
-				"skill-3": {
-					"skill-name": "Jumping Volley",
-					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
-				}
-			},
-			{
-				"skill-4": {
-					"skill-name": "Miracle Shot",
-					"skill-description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
-				}
-			}
-		],
-		"categories": [
-			"extreme-lead",
-      "agile-lead",
-			"technique-lead",
-			"attack-lead",
-			"stat-booster",
-			"attack-booster",
-			"type-booster",
-			"technique-booster",
-			"cooldown-reducer",
-      "characteristics-booster",
-			"athlete-booster",
-			"hit-increaser",
-			"single-hitter",
-      "main-target-single-hitter",
-      "damage-booster",
-			"ultimate-damage-booster",
-      "single-target-single-hitter",
-      "rollback-cooldown",
-      "against-physical-damage-booster",
-      "support-target-single-hitter"
-		]
+			],
+			"categories": [
+				"extreme-lead",
+		"agile-lead",
+				"technique-lead",
+				"attack-lead",
+				"stat-booster",
+				"attack-booster",
+				"type-booster",
+				"technique-booster",
+				"cooldown-reducer",
+		"characteristics-booster",
+				"athlete-booster",
+				"hit-increaser",
+				"single-hitter",
+		"main-target-single-hitter",
+		"damage-booster",
+				"ultimate-damage-booster",
+		"single-target-single-hitter",
+		"rollback-cooldown",
+		"against-physical-damage-booster",
+		"support-target-single-hitter"
+			]
 	},
-  "172": {
-		"name": "Ryo Ishizaki",
-		"title": "Funky Gutsman of Nankatsu",
-		"era": "1980",
-		"type": "physical",
-		"class": "tank",
-		"series": "Captain Tsubasa",
-		"obtainable": "f2p",
-		"image_path": "assets/images/Ryo_Ishizaki.png",
-		"characteristics": [
-      "student",
-      "athlete",
-      "hot-blooded"
-		],
-		"leader-skill": "Boost the Defence of Physical units by an Extreme amount",
-		"passive-skill": [
-			"Guard all allies from normal attacks",
-			"Boost the Defence of allies with the Athlete characteristic by a Medium amount",
-			"Until the end of the first turn this unit is attacked, reduce Damage Received by this unit by an Extreme amount"
-		],
-		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
-		},
-		"skill": [{
-				"ultimate": {
-					"skill-name": "Monkey Dive",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Received by all allies by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
-				}
+	"172": {
+			"name": "Ryo Ishizaki",
+			"title": "Funky Gutsman of Nankatsu",
+			"era": "1980",
+			"type": "physical",
+			"class": "tank",
+			"series": "Captain Tsubasa",
+			"obtainable": "f2p",
+				"image_card_path": "assets/images/cards/Ryo_Ishizaki.png",
+			"image_portrait_path": "assets/images/portraits/Ryo_Ishizaki.png",
+			"characteristics": [
+		"student",
+		"athlete",
+		"hot-blooded"
+			],
+			"leader-skill": "Boost the Defence of Physical units by an Extreme amount",
+			"passive-skill": [
+				"Guard all allies from normal attacks",
+				"Boost the Defence of allies with the Athlete characteristic by a Medium amount",
+				"Until the end of the first turn this unit is attacked, reduce Damage Received by this unit by an Extreme amount"
+			],
+			"stats": {
+				"hp": "0",
+				"attack": "0",
+				"defence": "0",
+				"speed": "0"
 			},
-			{
-				"skill-1": {
-					"skill-name": "Ganmen Block",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+			"skill": [{
+					"ultimate": {
+						"skill-name": "Monkey Dive",
+						"skill-description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Received by all allies by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead",
+						"initial-cooldown": "49",
+						"max-cooldown": "40"
+					}
+				},
+				{
+					"skill-1": {
+						"skill-name": "Ganmen Block",
+						"skill-description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once",
+						"initial-cooldown": "44",
+						"max-cooldown": "35"
+					}
+				},
+				{
+					"skill-2": {
+						"skill-name": "Overlapping Thoughts",
+						"skill-description": "Inflict 200% damage to the target ",
+						"initial-cooldown": "42",
+						"max-cooldown": "33"
+					}
+				},
+				{
+					"skill-3": {
+						"skill-name": "Abandon Defence",
+						"skill-description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all allies by a Large amount for 1 turn, if they have the Athlete characteristic boost by an Extreme amount instead",
+						"initial-cooldown": "35",
+						"max-cooldown": "26"
+					}
 				}
-			},
-			{
-				"skill-2": {
-					"skill-name": "Overlapping Thoughts",
-					"skill-description": "Inflict 200% damage to the target ",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
-				}
-			},
-			{
-				"skill-3": {
-					"skill-name": "Abandon Defence",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all allies by a Large amount for 1 turn, if they have the Athlete characteristic boost by an Extreme amount instead",
-					"initial-cooldown": "35",
-					"max-cooldown": "26"
-				}
-			}
-		],
-		"categories": [
-			"extreme-lead",
-      "physical-lead",
-			"defence-lead",
-      "blocker",
-			"stat-booster",
-			"defence-booster",
-      "characteristics-booster",
-			"athlete-booster",
-      "damage-reducer",
-      "single-hitter",
-			"single-target-single-hitter"
-		]
+			],
+			"categories": [
+				"extreme-lead",
+		"physical-lead",
+				"defence-lead",
+		"blocker",
+				"stat-booster",
+				"defence-booster",
+		"characteristics-booster",
+				"athlete-booster",
+		"damage-reducer",
+		"single-hitter",
+				"single-target-single-hitter"
+			]
 	},
-  "173": {
+	"173": {
 		"name": "All Might",
 		"title": "No.1 Hero",
 		"era": "2010",
@@ -1140,7 +1819,8 @@
 		"class": "all-rounder",
 		"series": "My Hero Academia",
 		"obtainable": "raid",
-		"image_path": "assets/images/All_Might.png",
+		"image_card_path": "assets/images/cards/All_Might.png",
+		"image_portrait_path": "assets/images/portraits/All_Might.png",
 		"characteristics": [
       "hero",
       "superhuman",
