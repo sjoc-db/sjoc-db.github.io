@@ -657,6 +657,91 @@
 			"single-target-multi-hitter"
 		]
 	},
+	"108001010": {
+		"name": "Taison Maeda",
+		"title": "Tokyo's Four Heavenly Kings, King of Kichijoji",
+		"era": "1980",
+		"type": "strength",
+		"class": "dps",
+		"series": "Rokudenashi Blues",
+		"obtainable": "pvp",
+		"image_card_path": "assets/images/cards/Taison_Maeda.png",
+		"image_portrait_path": "assets/images/portraits/Taison_Maeda.png",
+		"characteristics": [
+			"Student",
+			"Hand to Hand Combat",
+			"Manliness",
+			"Delinquent",
+			"Fighting Spirit",
+			"Protagonist"
+		],
+		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Ultimate Attack Damage of all Strength team members by a Medium amount",
+			"Boost the Skill Damage of all team members with the Delinquent characteristic by a Large amount",
+			"Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 5% at the start of battle"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "2nd Dan Upper",
+					"skill-description": "Inflict 300% damage to the target and inflict another 300% damage that ignores defence to the target",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Back Drop",
+					"skill-description": "Inflict 200% damage to the target and inflict 100% damage to the enemy main team ",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Demon's Savate",
+					"skill-description": "Boost this unit's Damage Dealt to characters with the Student characteristic by a Mega amount for 1 turn and inflict 250% damage to the target ",
+					"initial-cooldown": "30",
+					"max-cooldown": "21"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "The Power of Trust",
+					"skill-description": "Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 3% and boost the Attack of all team members with the Delinquent characteristic by a Large amount for 2 turns ",
+					"initial-cooldown": "30",
+					"max-cooldown": "21"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"strength-lead",
+			"attack-lead",
+			"type-booster",
+			"strength-booster",
+			"characteristics-booster",
+			"delinquent-booster",
+			"cooldown-reducer",
+			"delinquent-cooldown-reducer",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"ignore-defence",
+			"single-hitter",
+			"single-target-single-hitter",
+			"main-target-single-hitter",
+			"anti-characteristics",
+			"anti-student",
+			"stat-booster",
+			"attack-booster"
+		]
+	},
 	"134001010": {
 		"name": "Mankichi Togawa",
 		"title": "Hoodlum Admiral",
@@ -889,7 +974,6 @@
 			"heart-booster",
 			"stat-booster",
 			"critical-chance-booster",
-			"main-target-single-hitter",
 			"single-hitter",
 			"main-target-single-hitter",
 			"single-target-single-hitter",
@@ -902,6 +986,172 @@
 			"hit-increaser",
 			"eot-healer",
 			"main-eot-healer"
+		]
+	},
+	"148001010": {
+		"name": "Arale Norimaki",
+		"title": "Robot Girl from Penguin Village",
+		"era": "1980",
+		"type": "physical",
+		"class": "dps",
+		"series": "Dr. Slump",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Arale_Norimaki.png",
+		"image_portrait_path": "assets/images/portraits/Arale_Norimaki.png",
+		"characteristics": [
+			"Artificial",
+			"Protagonist",
+			"Glasses"
+		],
+		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost this unit's Attack by a Large amount against Heart enemies",
+			"Boost this unit's Defence by a Super Mega amount against enemies with the Hand to Hand Combat characteristic",
+			"Twice from the start of battle, prevent Stat Debuffs on this unit"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "N'cha Cannon",
+					"skill-description": "Inflict 550% damage to the enemy main team with a chance to Stun for 2 turns",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Tsukurakku",
+					"skill-description": "Boost this unit's Damage Dealt to Heart units by a Mega amount for 3 turns",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "RoboPitan A",
+					"skill-description": "Boost this unit's Attack by an Extreme amount for 2 turns and recover her HP by a Medium amount",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Kiin!",
+					"skill-description": "Inflict 250% damage to the target",
+					"initial-cooldown": "33",
+					"max-cooldown": "24"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"anti-type",
+			"anti-heart",
+			"defence-booster",
+			"anti-characteristics",
+			"anti-hand-to-hand-combat",
+			"self-stat-debuff-preventer",
+			"single-hitter",
+			"main-target-single-hitter",
+			"stunner",
+			"healer",
+			"self-healer",
+			"single-target-single-hitter"
+		]
+	},
+	"148006020": {
+		"name": "Obotchaman",
+		"title": "Loving Robot of Justice and Peace",
+		"era": "1980",
+		"type": "physical",
+		"class": "dps",
+		"series": "Dr. Slump",
+		"obtainable": "f2p",
+		"image_card_path": "assets/images/cards/Obotchaman.png",
+		"image_portrait_path": "assets/images/portraits/Obotchaman.png",
+		"characteristics": [
+			"Student",
+			"Artificial",
+			"Superhuman Strength",
+			"Pure",
+			"Order",
+			"Glasses"
+		],
+		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of all Physical team members by a Medium amount",
+			"Boost the Ultimate Attack Damage of all team members with the Artificial characteristic by a Medium amount",
+			"Reduce the Damage Received by all team members with the Artificial characteristic by a Medium amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Attack: Excuse me, I'm sorry",
+					"skill-description": "Boost this unit's Damage Dealt to Heart units by an Extreme amount for 1 turn and inflict 700% damage to the target",
+					"initial-cooldown": "46",
+					"max-cooldown": "37"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Greeting Gift",
+					"skill-description": "Heal all allies (not including this unit) by a Medium amount, if they are Physical type then boost their Damage Dealt to Heart units by an Extreme amount for 1 turn",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Loving Earth",
+					"skill-description": "Inflict 250% to the enemy main team, if they are Heart type, Roll Back their Skill and Ultimate Attack cooldowns by 5%",
+					"initial-cooldown": "39",
+					"max-cooldown": "30"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Greeting Cannon",
+					"skill-description": "Inflict 300% damage to the target and negate all Stat buffs",
+					"initial-cooldown": "43",
+					"max-cooldown": "34"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"type-booster",
+			"physical-booster",
+			"stat-booster",
+			"attack-booster",
+			"characteristics-booster",
+			"artificial-booster",
+			"anti-type",
+			"anti-heart",
+			"single-hitter",
+			"single-target-single-hitter",
+			"healer",
+			"all-healer",
+			"main-target-single-hitter",
+			"rollback-cooldown",
+			"rollback-heart-cooldown",
+			"stat-buff-negator",
+			"single-target-stat-buff-negator"
 		]
 	},
 	"150001010": {
@@ -1077,7 +1327,7 @@
 		"type": "physical",
 		"class": "dps",
 		"series": "Kinnikuman",
-		"obtainable": "gacha",
+		"obtainable": "limited-gacha",
 		"image_card_path": "assets/images/cards/Suguru.png",
 		"image_portrait_path": "assets/images/portraits/Suguru.png",
 		"characteristics": [
@@ -1157,7 +1407,7 @@
 		"type": "physical",
 		"class": "dps",
 		"series": "Kinnikuman",
-		"obtainable": "gacha",
+		"obtainable": "limited-gacha",
 		"image_card_path": "assets/images/cards/Jump_Suguru.png",
 		"image_portrait_path": "assets/images/portraits/Jump_Suguru.png",
 		"characteristics": [
@@ -1238,6 +1488,257 @@
 			"single-hitter",
 			"single-target-single-hitter",
 			"ultimate-rollback-preventer"
+		]
+	},
+	"168001010": {
+		"name": "Tsubasa Oozora",
+		"title": "Child of Football",
+		"era": "1980",
+		"type": "technique",
+		"class": "all-rounder",
+		"series": "Captain Tsubasa",
+		"obtainable": "limited-gacha",
+		"image_card_path": "assets/images/cards/Tsubasa_Oozora.png",
+		"image_portrait_path": "assets/images/portraits/Tsubasa_Oozora.png",
+		"characteristics": [
+			"student",
+			"athlete",
+			"genius",
+			"persistent",
+			"protagonist"
+		],
+		"leader-skill": "Boost the Attack of Agile and Technique units by a Large amount",
+		"passive-skill": [
+			"Boost the Attack of all team members that are Technique type by a Large amount",
+			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
+			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
+		],
+		"stats": {
+			"hp": "9647",
+			"attack": "1870",
+			"defence": "1183",
+			"speed": "38"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Overhead Kick",
+					"skill-description": "Inflict 400% damage to the enemy main team",
+					"initial-cooldown": "45",
+					"max-cooldown": "36"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Playmaker",
+					"skill-description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Diving Header",
+					"skill-description": "Inflict 270% damage to the enemy main team",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Jumping Volley",
+					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			}
+		],
+		"categories": [
+			"large-lead",
+			"agile-lead",
+			"technique-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"technique-booster",
+			"cooldown-reducer",
+			"characteristics-booster",
+			"athlete-booster",
+			"hit-increaser",
+			"single-hitter",
+			"main-target-single-hitter",
+			"damage-booster",
+			"ultimate-damage-booster",
+			"single-target-single-hitter",
+			"rollback-cooldown"
+		]
+	},
+	"168001011": {
+		"name": "Tsubasa Oozora",
+		"title": "King of the South's Captain",
+		"era": "1980",
+		"type": "technique",
+		"class": "all-rounder",
+		"series": "Captain Tsubasa",
+		"obtainable": "limited-gacha",
+		"image_card_path": "assets/images/cards/Jump_Tsubasa.png",
+		"image_portrait_path": "assets/images/portraits/Jump_Tsubasa.png",
+		"characteristics": [
+			"student",
+			"athlete",
+			"genius",
+			"persistent",
+			"protagonist"
+		],
+		"leader-skill": "Boost the Attack of Agile and Technique units by an Extreme amount",
+		"passive-skill": [
+			"Boost the Attack of all team members that are Technique type by a Large amount",
+			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
+			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
+		],
+		"stats": {
+			"hp": "10547",
+			"attack": "2083",
+			"defence": "1286",
+			"speed": "40"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Drive Shot",
+					"skill-description": "Inflict 550% damage to the enemy main team",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Playmaker",
+					"skill-description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Diving Header",
+					"skill-description": "Inflict 270% damage to the enemy main team",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Jumping Volley",
+					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
+					"initial-cooldown": "32",
+					"max-cooldown": "23"
+				}
+			},
+			{
+				"skill-4": {
+					"skill-name": "Miracle Shot",
+					"skill-description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
+					"initial-cooldown": "31",
+					"max-cooldown": "22"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"agile-lead",
+			"technique-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"technique-booster",
+			"cooldown-reducer",
+			"characteristics-booster",
+			"athlete-booster",
+			"hit-increaser",
+			"single-hitter",
+			"main-target-single-hitter",
+			"damage-booster",
+			"ultimate-damage-booster",
+			"single-target-single-hitter",
+			"rollback-cooldown",
+			"anti-type",
+			"anti-physical",
+			"support-target-single-hitter"
+		]
+	},
+	"168002010": {
+		"name": "Ryo Ishizaki",
+		"title": "Funky Gutsman of Nankatsu",
+		"era": "1980",
+		"type": "physical",
+		"class": "tank",
+		"series": "Captain Tsubasa",
+		"obtainable": "f2p",
+		"image_card_path": "assets/images/cards/Ryo_Ishizaki.png",
+		"image_portrait_path": "assets/images/portraits/Ryo_Ishizaki.png",
+		"characteristics": [
+			"Student",
+			"Athlete",
+			"Hot Blooded"
+		],
+		"leader-skill": "Boost the Defence of Physical units by an Extreme amount",
+		"passive-skill": [
+			"Guard all allies from normal attacks",
+			"Boost the Defence of all team members with the Athlete characteristic by a Medium amount",
+			"Until the end of the first that turn this unit is attacked, reduce Damage Inflicted to this unit by a Mega amount"
+		],
+		"stats": {
+			"hp": "",
+			"attack": "",
+			"defence": "",
+			"speed": ""
+		},
+		"skill": [{
+				"ultimate": {
+					"skill-name": "Monkey Dive",
+					"skill-description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Inflicted to all team members by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead ",
+					"initial-cooldown": "49",
+					"max-cooldown": "40"
+				}
+			},
+			{
+				"skill-1": {
+					"skill-name": "Ganmen Block",
+					"skill-description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once ",
+					"initial-cooldown": "44",
+					"max-cooldown": "35"
+				}
+			},
+			{
+				"skill-2": {
+					"skill-name": "Overlapping Thoughts",
+					"skill-description": "Inflict 200% damage to the target",
+					"initial-cooldown": "42",
+					"max-cooldown": "33"
+				}
+			},
+			{
+				"skill-3": {
+					"skill-name": "Abandon Defence",
+					"skill-description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all team members by a Large amount for 1 turn, if they have the Athlete characteristic boost by a Mega amount instead",
+					"initial-cooldown": "35",
+					"max-cooldown": "26"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"defence-lead",
+			"blocker",
+			"stat-booster",
+			"defence-booster",
+			"characteristics-booster",
+			"damage-reducer",
+			"athlete-booster",
+			"single-hitter",
+			"single-target-single-hitter"
 		]
 	},
 	"173001010": {
@@ -1559,256 +2060,6 @@
 				"main-target-single-hitter",
 				"debuffer",
 				"attack-reducer"
-			]
-	},
-	"170": {
-			"name": "Tsubasa Oozora",
-			"title": "Child of Football",
-			"era": "1980",
-			"type": "technique",
-			"class": "all-rounder",
-			"series": "Captain Tsubasa",
-			"obtainable": "limited-gacha",
-				"image_card_path": "assets/images/cards/Tsubasa_Oozora.png",
-			"image_portrait_path": "assets/images/portraits/Tsubasa_Oozora.png",
-			"characteristics": [
-		"student",
-		"athlete",
-		"genius",
-		"persistent",
-		"protagonist"
-			],
-			"leader-skill": "Boost the Attack of Agile and Technique units by a Large amount",
-			"passive-skill": [
-				"Boost the Attack of Technique allies by a Large amount",
-				"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
-				"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
-			],
-			"stats": {
-				"hp": "9647",
-				"attack": "1870",
-				"defence": "1183",
-				"speed": "38"
-			},
-			"skill": [{
-					"ultimate": {
-						"skill-name": "Overhead Kick",
-						"skill-description": "Inflict 400% damage to the enemy main team",
-						"initial-cooldown": "45",
-						"max-cooldown": "36"
-					}
-				},
-				{
-					"skill-1": {
-						"skill-name": "Playmaker",
-						"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
-						"initial-cooldown": "31",
-						"max-cooldown": "22"
-					}
-				},
-				{
-					"skill-2": {
-						"skill-name": "Diving Header",
-						"skill-description": "Inflict 270% damage to the enemy main team",
-						"initial-cooldown": "32",
-						"max-cooldown": "23"
-					}
-				},
-				{
-					"skill-3": {
-						"skill-name": "Jumping Volley",
-						"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10% ",
-						"initial-cooldown": "32",
-						"max-cooldown": "23"
-					}
-				}
-			],
-			"categories": [
-				"large-lead",
-		"agile-lead",
-				"technique-lead",
-				"attack-lead",
-				"stat-booster",
-				"attack-booster",
-				"type-booster",
-				"technique-booster",
-				"cooldown-reducer",
-		"characteristics-booster",
-				"athlete-booster",
-				"hit-increaser",
-				"single-hitter",
-		"main-target-single-hitter",
-		"damage-booster",
-				"ultimate-damage-booster",
-		"single-target-single-hitter",
-		"rollback-cooldown"
-			]
-	},
-	"171": {
-			"name": "Tsubasa Oozora",
-			"title": "King of the South's Captain",
-			"era": "1980",
-			"type": "technique",
-			"class": "all-rounder",
-			"series": "Captain Tsubasa",
-			"obtainable": "limited-gacha",
-				"image_card_path": "assets/images/cards/Jump_Tsubasa.png",
-			"image_portrait_path": "assets/images/portraits/Jump_Tsubasa.png",
-			"characteristics": [
-		"student",
-		"athlete",
-		"genius",
-		"persistent",
-		"protagonist"
-			],
-			"leader-skill": "Boost the Attack of Agile and Technique units by a Extreme amount",
-			"passive-skill": [
-				"Boost the Attack of Technique allies by a Large amount",
-				"Once at the start of battle, roll forward the skill gauge of allies with the Athlete characteristic by 5%",
-				"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all allies with the Athlete characteristic"
-			],
-			"stats": {
-				"hp": "10547",
-				"attack": "2083",
-				"defence": "1286",
-				"speed": "40"
-			},
-			"skill": [{
-					"ultimate": {
-						"skill-name": "Overhead Kick",
-						"skill-description": "Inflict 400% damage to the enemy main team",
-						"initial-cooldown": "45",
-						"max-cooldown": "36"
-					}
-				},
-				{
-					"skill-1": {
-						"skill-name": "Playmaker",
-						"skill-description": "Boost Damage Dealt by all allies by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all allies with the Athlete characteristic by an Extreme amount for 3 turns",
-						"initial-cooldown": "31",
-						"max-cooldown": "22"
-					}
-				},
-				{
-					"skill-2": {
-						"skill-name": "Diving Header",
-						"skill-description": "Inflict 270% damage to the enemy main team",
-						"initial-cooldown": "32",
-						"max-cooldown": "23"
-					}
-				},
-				{
-					"skill-3": {
-						"skill-name": "Jumping Volley",
-						"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
-						"initial-cooldown": "32",
-						"max-cooldown": "23"
-					}
-				},
-				{
-					"skill-4": {
-						"skill-name": "Miracle Shot",
-						"skill-description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
-						"initial-cooldown": "31",
-						"max-cooldown": "22"
-					}
-				}
-			],
-			"categories": [
-				"extreme-lead",
-		"agile-lead",
-				"technique-lead",
-				"attack-lead",
-				"stat-booster",
-				"attack-booster",
-				"type-booster",
-				"technique-booster",
-				"cooldown-reducer",
-		"characteristics-booster",
-				"athlete-booster",
-				"hit-increaser",
-				"single-hitter",
-		"main-target-single-hitter",
-		"damage-booster",
-				"ultimate-damage-booster",
-		"single-target-single-hitter",
-		"rollback-cooldown",
-		"against-physical-damage-booster",
-		"support-target-single-hitter"
-			]
-	},
-	"172": {
-			"name": "Ryo Ishizaki",
-			"title": "Funky Gutsman of Nankatsu",
-			"era": "1980",
-			"type": "physical",
-			"class": "tank",
-			"series": "Captain Tsubasa",
-			"obtainable": "f2p",
-				"image_card_path": "assets/images/cards/Ryo_Ishizaki.png",
-			"image_portrait_path": "assets/images/portraits/Ryo_Ishizaki.png",
-			"characteristics": [
-		"student",
-		"athlete",
-		"hot-blooded"
-			],
-			"leader-skill": "Boost the Defence of Physical units by an Extreme amount",
-			"passive-skill": [
-				"Guard all allies from normal attacks",
-				"Boost the Defence of allies with the Athlete characteristic by a Medium amount",
-				"Until the end of the first turn this unit is attacked, reduce Damage Received by this unit by an Extreme amount"
-			],
-			"stats": {
-				"hp": "0",
-				"attack": "0",
-				"defence": "0",
-				"speed": "0"
-			},
-			"skill": [{
-					"ultimate": {
-						"skill-name": "Monkey Dive",
-						"skill-description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Received by all allies by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead",
-						"initial-cooldown": "49",
-						"max-cooldown": "40"
-					}
-				},
-				{
-					"skill-1": {
-						"skill-name": "Ganmen Block",
-						"skill-description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once",
-						"initial-cooldown": "44",
-						"max-cooldown": "35"
-					}
-				},
-				{
-					"skill-2": {
-						"skill-name": "Overlapping Thoughts",
-						"skill-description": "Inflict 200% damage to the target ",
-						"initial-cooldown": "42",
-						"max-cooldown": "33"
-					}
-				},
-				{
-					"skill-3": {
-						"skill-name": "Abandon Defence",
-						"skill-description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all allies by a Large amount for 1 turn, if they have the Athlete characteristic boost by an Extreme amount instead",
-						"initial-cooldown": "35",
-						"max-cooldown": "26"
-					}
-				}
-			],
-			"categories": [
-				"extreme-lead",
-		"physical-lead",
-				"defence-lead",
-		"blocker",
-				"stat-booster",
-				"defence-booster",
-		"characteristics-booster",
-				"athlete-booster",
-		"damage-reducer",
-		"single-hitter",
-				"single-target-single-hitter"
 			]
 	},
 	"173": {

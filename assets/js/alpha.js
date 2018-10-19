@@ -26,6 +26,7 @@ $(document).ready(function(){
         var button = $(event.relatedTarget) // Button that triggered the modal
         var id = button.data('id') // Extract info from data-* attributes
         var modal = $(this)
+        modal.find('.modal-footer>.modal-categories').empty();
         $.getJSON('characters.json', function(data) {
             var _name = data[id].name;
             var _type = data[id].type;
