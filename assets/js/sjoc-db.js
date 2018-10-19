@@ -15,7 +15,6 @@ $(window).on("load",function(){
                 // check if all category filter match
                 for ( var i=0; i<length; i++ ) {
                     var catFilter = categoryFilters[i];
-                    console.log(catFilter);
                     if ( !$this.hasClass(catFilter) ) {
                         return false;
                     }

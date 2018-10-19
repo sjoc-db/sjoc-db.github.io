@@ -150,7 +150,35 @@
 }
 
 .modal-card {
-    max-height: 250px;
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.strength {
+    color: red;
+}
+
+.agile {
+    color: blue;
+}
+
+.intelligence {
+    color: purple
+}
+
+.technique {
+    color: green;
+}
+
+.physical {
+    color: orange;
+}
+
+.heart {
+    color: gold;
 }
 
 .category-pill {

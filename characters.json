@@ -15,8 +15,8 @@
 			"Pure",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive_skills": [
 			"Boost damage dealt to enemies with the Hand to hand combat characteristic",
 			"Boost the chance of Critical Hits for Agile allies by a Medium amount",
 			"When HP is below 50%, this unit counters every normal attack"
@@ -29,34 +29,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Kamehameha",
-					"skill-description": "Boost the Damage Dealt to enemies with the Monster characteristic by an Extreme amount for 2 turns, inflict 710% dmg to target enemy",
-					"initial-cooldown": "51",
-					"max-cooldown": "42"
+					"skill_name": "Kamehameha",
+					"skill_description": "Boost the Damage Dealt to enemies with the Monster characteristic by an Extreme amount for 2 turns, inflict 710% dmg to target enemy",
+					"initial_cooldown": "51",
+					"max_cooldown": "42"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Bachokama Mashi",
-					"skill-description": "Inflict 150% damage to the enemy main team",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_1": {
+					"skill_name": "Bachokama Mashi",
+					"skill_description": "Inflict 150% damage to the enemy main team",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Reserve Power",
-					"skill-description": "Boost the Attack of this unit by an Extreme amount for 4 turns, remove one stat reducing debuff from this unit",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+				"skill_2": {
+					"skill_name": "Reserve Power",
+					"skill_description": "Boost the Attack of this unit by an Extreme amount for 4 turns, remove one stat reducing debuff from this unit",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "The Power of Master Roshi's Teachings",
-					"skill-description": "Reduce the Defence of enemies from Dragon Ball by an Extreme amount for 4 turns, inflict 210% damage to the target",
-					"initial-cooldown": "37",
-					"max-cooldown": "28"
+				"skill_3": {
+					"skill_name": "The Power of Master Roshi's Teachings",
+					"skill_description": "Reduce the Defence of enemies from Dragon Ball by an Extreme amount for 4 turns, inflict 210% damage to the target",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
 				}
 			}
 		],
@@ -95,8 +95,8 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength and Heart units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"passive_skills": [
 			"Boost the Attack of Main Team Allies by a Large amount",
 			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
 			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
@@ -109,34 +109,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Genki Dama (Spirit Bomb)",
-					"skill-description": "Inflict 300% damage to the Target Enemy and a further 300% to the whole enemy Main Team",
-					"initial-cooldown": "69",
-					"max-cooldown": "60"
+					"skill_name": "Genki Dama (Spirit Bomb)",
+					"skill_description": "Inflict 300% damage to the Target Enemy and a further 300% to the whole enemy Main Team",
+					"initial_cooldown": "69",
+					"max_cooldown": "60"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Kamehameha",
-					"skill-description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_1": {
+					"skill_name": "Kamehameha",
+					"skill_description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Kiai",
-					"skill-description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_2": {
+					"skill_name": "Kiai",
+					"skill_description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Full Nelson",
-					"skill-description": "Inflict 300% damage to all Enemy Supports ",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_3": {
+					"skill_name": "Full Nelson",
+					"skill_description": "Inflict 300% damage to all Enemy Supports ",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			}
 		],
@@ -156,7 +156,7 @@
 			"main-target-single-hitter",
 			"debuffer",
 			"defence-reducer",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"support-target-single-hitter"
 		]
 	},
@@ -176,8 +176,8 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength, Heart and Technique units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength, Heart and Technique units by a Large amount",
+		"passive_skills": [
 			"Boost the Attack of Main Team Allies by a Large amount",
 			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
 			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
@@ -190,42 +190,42 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Super Kamehameha",
-					"skill-description": "Inflict 600% damage to entire enemy team, roll back enemy skill gauge by 20%",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+					"skill_name": "Super Kamehameha",
+					"skill_description": "Inflict 600% damage to entire enemy team, roll back enemy skill gauge by 20%",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Kamehameha",
-					"skill-description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_1": {
+					"skill_name": "Kamehameha",
+					"skill_description": "Inflict 150% damage to all enemy Main Team, reduce target Defence by a large amount for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Kiai",
-					"skill-description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_2": {
+					"skill_name": "Kiai",
+					"skill_description": "Inflict 400% damage to the Target Enemy and roll back their skill gauge by 20%",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Full Nelson",
-					"skill-description": "Inflict 300% damage to all Enemy Supports",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_3": {
+					"skill_name": "Full Nelson",
+					"skill_description": "Inflict 300% damage to all Enemy Supports",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-4": {
-					"skill-name": "Warrior of Wrath",
-					"skill-description": "Increase the Speed and chance of Critical Hits for this unit by an Extreme amount for 4 turns, additionally, increase this units number of normal attacks by +1 for 3 turns",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_4": {
+					"skill_name": "Warrior of Wrath",
+					"skill_description": "Increase the Speed and chance of Critical Hits for this unit by an Extreme amount for 4 turns, additionally, increase this units number of normal attacks by +1 for 3 turns",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			}
 		],
@@ -246,7 +246,7 @@
 			"main-target-single-hitter",
 			"debuffer",
 			"defence-reducer",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"support-target-single-hitter",
 			"speed-booster",
 			"self-speed-booster",
@@ -271,8 +271,8 @@
 			"Hard Worker",
 			"Light"
 		],
-		"leader-skill": "Boost the chance of Critical hits for Technique and Physical units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the chance of Critical hits for Technique and Physical units by a Large amount",
+		"passive_skills": [
 			"Boost Speed by a Medium amount",
 			"Boost the Speed of Technique allies by a Medium amount",
 			"Remove weakness debuffs from this unit twice"
@@ -285,34 +285,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Kamehameha",
-					"skill-description": "Inflict 400% damage to the target and roll back their cooldowns by 10%, furthermore, inflict 400% damage to support slot enemies",
-					"initial-cooldown": "57",
-					"max-cooldown": "48"
+					"skill_name": "Kamehameha",
+					"skill_description": "Inflict 400% damage to the target and roll back their cooldowns by 10%, furthermore, inflict 400% damage to support slot enemies",
+					"initial_cooldown": "57",
+					"max_cooldown": "48"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Assist",
-					"skill-description": "Boost the chance of Critical Hits for main team allies by a Large amount for 4 turns and boost their number of normal attacks by +1 for 4 turns",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_1": {
+					"skill_name": "Assist",
+					"skill_description": "Boost the chance of Critical Hits for main team allies by a Large amount for 4 turns and boost their number of normal attacks by +1 for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Flipped",
-					"skill-description": "Reduce the Attack of main team enemies by a Medium amount for 4 turns and chance to Blind them for 4 turns",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_2": {
+					"skill_name": "Flipped",
+					"skill_description": "Reduce the Attack of main team enemies by a Medium amount for 4 turns and chance to Blind them for 4 turns",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Wisdom of the Turtle Style",
-					"skill-description": "Negate all positive buffs on the enemy main team",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+				"skill_3": {
+					"skill_name": "Wisdom of the Turtle Style",
+					"skill_description": "Negate all positive buffs on the enemy main team",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			}
 		],
@@ -327,7 +327,7 @@
 			"technique-booster",
 			"single-hitter",
 			"single-target-single-hitter",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"support-target-single-hitter",
 			"random-target-single-hitter",
 			"critical-chance-booster",
@@ -353,8 +353,8 @@
 			"Sly",
 			"Evil"
 		],
-		"leader-skill": "Boost the Attack of Intelligence units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Intelligence units by an Extreme amount",
+		"passive_skills": [
 			"Boost the chance of Critical Hits",
 			"Boost the Attack of intelligence allies",
 			"Roll-forward the cooldown of this units skills by 50% once at the start of battle"
@@ -367,34 +367,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "",
-					"skill-description": "Attack target enemy 5 times for 150% dmg ",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+					"skill_name": "",
+					"skill_description": "Attack target enemy 5 times for 150% dmg ",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "",
-					"skill-description": "140% dmg to target enemy, chance to stun for 2 turns",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_1": {
+					"skill_name": "",
+					"skill_description": "140% dmg to target enemy, chance to stun for 2 turns",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "",
-					"skill-description": "Increase own crit rate by an extreme amount for 4 turns, adds +1 to normal attack for 4 turns ",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_2": {
+					"skill_name": "",
+					"skill_description": "Increase own crit rate by an extreme amount for 4 turns, adds +1 to normal attack for 4 turns ",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "",
-					"skill-description": "230% dmg to target enemy, blocks damage twice",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_3": {
+					"skill_name": "",
+					"skill_description": "230% dmg to target enemy, blocks damage twice",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			}
 		],
@@ -433,8 +433,8 @@
 			"Rival",
 			"Evil"
 		],
-		"leader-skill": "Boost the Attack of Intelligence units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Technique units by an Extreme amount",
+		"passive_skills": [
 			"Prevent Ultimate Attack Seal on this unit once from the start of battle",
 			"When this unit's HP is 50% or less, boost the effect of his healing skill by an Extreme amount",
 			"When this unit's HP is 50% or more, boost his Ultimate Attack Damage by a Large amount"
@@ -447,34 +447,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "The Demon King's Last Resort",
-					"skill-description": "Inflict 700% damage to all enemies",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+					"skill_name": "The Demon King's Last Resort",
+					"skill_description": "Inflict 700% damage to all enemies",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Ki Waves",
-					"skill-description": "Inflict 300% damage to the target and reduce their Ultimate Attack Damage by a Large amount for 2 turns",
-					"initial-cooldown": "35",
-					"max-cooldown": "26"
+				"skill_1": {
+					"skill_name": "Ki Waves",
+					"skill_description": "Inflict 300% damage to the target and reduce their Ultimate Attack Damage by a Large amount for 2 turns",
+					"initial_cooldown": "35",
+					"max_cooldown": "26"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Regeneration",
-					"skill-description": "Recover this unit's HP my a Medium amount",
-					"initial-cooldown": "29",
-					"max-cooldown": "20"
+				"skill_2": {
+					"skill_name": "Regeneration",
+					"skill_description": "Recover this unit's HP my a Medium amount",
+					"initial_cooldown": "29",
+					"max_cooldown": "20"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Eye Beam",
-					"skill-description": "Roll back the cooldowns of random enemy supports by 5%, furthermore inflict 100% damage to the target",
-					"initial-cooldown": "37",
-					"max-cooldown": "28"
+				"skill_3": {
+					"skill_name": "Eye Beam",
+					"skill_description": "Roll back the cooldowns of random enemy supports by 5%, furthermore inflict 100% damage to the target",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
 				}
 			}
 		],
@@ -491,7 +491,7 @@
 			"ultimate-damage-reducer",
 			"healer",
 			"self-healer",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"random-target-single-hitter",
 			"support-target-single-hitter"
 		]
@@ -512,8 +512,8 @@
 			"Royal",
 			"Alien"
 		],
-		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of allies with the Rival characteristic by a Medium amount",
 			"Boost the Ultimate Attack Damage of allies with the Rival characteristic by a Large amount",
 			"Reduce the Damage Dealt to this unit by enemies with the Protagonist characteristic by a Large amount"
@@ -526,34 +526,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Full Power Energy Wave",
-					"skill-description": "Inflict 500% damage to target enemy, Negate all positive buffs on enemy supports and then inflict 400% damage to both enemy supports",
-					"initial-cooldown": "41",
-					"max-cooldown": "32"
+					"skill_name": "Full Power Energy Wave",
+					"skill_description": "Inflict 500% damage to target enemy, Negate all positive buffs on enemy supports and then inflict 400% damage to both enemy supports",
+					"initial_cooldown": "41",
+					"max_cooldown": "32"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Explosive Wave",
-					"skill-description": "Inflict 200% damage to the enemy main team, furthermore, roll back the skill gauge of all main team enemies with the Protagonist characteristic by 10%",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
+				"skill_1": {
+					"skill_name": "Explosive Wave",
+					"skill_description": "Inflict 200% damage to the enemy main team, furthermore, roll back the skill gauge of all main team enemies with the Protagonist characteristic by 10%",
+					"initial_cooldown": "33",
+					"max_cooldown": "24"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Pride of the Saiyans",
-					"skill-description": "Remove all status conditions on this unit and heal by a Medium amount",
-					"initial-cooldown": "26",
-					"max-cooldown": "17"
+				"skill_2": {
+					"skill_name": "Pride of the Saiyans",
+					"skill_description": "Remove all status conditions on this unit and heal by a Medium amount",
+					"initial_cooldown": "26",
+					"max_cooldown": "17"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Power Level Control",
-					"skill-description": "Boost this unit's Attack by a Large amount for 3 turns, furthermore, boost this unit's Damage Dealt to enemies with the Protagonist characteristic by an Extreme amount",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_3": {
+					"skill_name": "Power Level Control",
+					"skill_description": "Boost this unit's Attack by a Large amount for 3 turns, furthermore, boost this unit's Damage Dealt to enemies with the Protagonist characteristic by an Extreme amount",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			}
 		],
@@ -571,8 +571,8 @@
 			"single-target-single-hitter",
 			"enemy-support-buff-negator",
 			"support-target-single-hitter",
-			"rollback-cooldown",
-			"rollback-protagonist-cooldown",
+			"rollback_cooldown",
+			"rollback-protagonist_cooldown",
 			"self-debuff-remover",
 			"healer",
 			"self-healer",
@@ -594,8 +594,8 @@
 			"Weak",
 			"Prodigy"
 		],
-		"leader-skill": "Boost the Attack of Strength and Heart units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"passive_skills": [
 			"When HP is below 80% HP, Boost this units Attack by a Medium amount",
 			"When HP is below 50% HP, Boost this units damage dealt by a Large amount",
 			"Boost the ATK of allies with the Alien characteristic by a Large amount"
@@ -608,34 +608,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "",
-					"skill-description": "Inflict 710% of this units Attack to target enemy, chance to blind for 2 turns",
-					"initial-cooldown": "74",
-					"max-cooldown": "65"
+					"skill_name": "",
+					"skill_description": "Inflict 710% of this units Attack to target enemy, chance to blind for 2 turns",
+					"initial_cooldown": "74",
+					"max_cooldown": "65"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "",
-					"skill-description": "Boost Attack by an Extreme amount against Intelligence units and characters with the Alien characteristic for 4 turns, Inflict 210% of this units Attack to target enemy",
-					"initial-cooldown": "37",
-					"max-cooldown": "28"
+				"skill_1": {
+					"skill_name": "",
+					"skill_description": "Boost Attack by an Extreme amount against Intelligence units and characters with the Alien characteristic for 4 turns, Inflict 210% of this units Attack to target enemy",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "",
-					"skill-description": "Inflict 3 hits of 60% of this units attack to target enemy",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_2": {
+					"skill_name": "",
+					"skill_description": "Inflict 3 hits of 60% of this units attack to target enemy",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "",
-					"skill-description": "Boost this units Attack by an Extreme amount ",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_3": {
+					"skill_name": "",
+					"skill_description": "Boost this units Attack by an Extreme amount ",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			}
 		],
@@ -675,8 +675,8 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Ultimate Attack Damage of all Strength team members by a Medium amount",
 			"Boost the Skill Damage of all team members with the Delinquent characteristic by a Large amount",
 			"Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 5% at the start of battle"
@@ -689,34 +689,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "2nd Dan Upper",
-					"skill-description": "Inflict 300% damage to the target and inflict another 300% damage that ignores defence to the target",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+					"skill_name": "2nd Dan Upper",
+					"skill_description": "Inflict 300% damage to the target and inflict another 300% damage that ignores defence to the target",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Back Drop",
-					"skill-description": "Inflict 200% damage to the target and inflict 100% damage to the enemy main team ",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_1": {
+					"skill_name": "Back Drop",
+					"skill_description": "Inflict 200% damage to the target and inflict 100% damage to the enemy main team ",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Demon's Savate",
-					"skill-description": "Boost this unit's Damage Dealt to characters with the Student characteristic by a Mega amount for 1 turn and inflict 250% damage to the target ",
-					"initial-cooldown": "30",
-					"max-cooldown": "21"
+				"skill_2": {
+					"skill_name": "Demon's Savate",
+					"skill_description": "Boost this unit's Damage Dealt to characters with the Student characteristic by a Mega amount for 1 turn and inflict 250% damage to the target ",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "The Power of Trust",
-					"skill-description": "Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 3% and boost the Attack of all team members with the Delinquent characteristic by a Large amount for 2 turns ",
-					"initial-cooldown": "30",
-					"max-cooldown": "21"
+				"skill_3": {
+					"skill_name": "The Power of Trust",
+					"skill_description": "Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 3% and boost the Attack of all team members with the Delinquent characteristic by a Large amount for 2 turns ",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
 				}
 			}
 		],
@@ -729,7 +729,7 @@
 			"characteristics-booster",
 			"delinquent-booster",
 			"cooldown-reducer",
-			"delinquent-cooldown-reducer",
+			"delinquent_cooldown-reducer",
 			"multi-hitter",
 			"single-target-multi-hitter",
 			"ignore-defence",
@@ -745,7 +745,7 @@
 	"134001010": {
 		"name": "Mankichi Togawa",
 		"title": "Hoodlum Admiral",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "heart",
 		"class": "support",
 		"series": "Otoko Ippiki Gaki-Daisho",
@@ -758,8 +758,8 @@
 			"Delinquent",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the chance of Critical Hits for Heart units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the chance of Critical Hits for Heart units by an Extreme amount",
+		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Delinquent characteristic",
 			"Boost the Attack of all team members that are Heart type",
 			"Boost the HP of all team members by a Large amount"
@@ -772,34 +772,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "The Decree of the Brat General",
-					"skill-description": "Roll forward the cooldowns of all allies (not including this unit) by 30% and Boost the Attack of main team allies by an Extreme amount for 4 turns",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+					"skill_name": "The Decree of the Brat General",
+					"skill_description": "Roll forward the cooldowns of all allies (not including this unit) by 30% and Boost the Attack of main team allies by an Extreme amount for 4 turns",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Inspiration",
-					"skill-description": "Boost main team Defence by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_1": {
+					"skill_name": "Inspiration",
+					"skill_description": "Boost main team Defence by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Fired Up",
-					"skill-description": "Boost the Defence of this unit by an Extreme amount for 4 turns and Block 2 hits of damage for this unit",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_2": {
+					"skill_name": "Fired Up",
+					"skill_description": "Boost the Defence of this unit by an Extreme amount for 4 turns and Block 2 hits of damage for this unit",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Advance Troopers",
-					"skill-description": "Boost main team Attack and chance of Critical Hits by a Large amount for 4 turns and Boost main team Speed by a Medium amount for 4 turns ",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+				"skill_3": {
+					"skill_name": "Advance Troopers",
+					"skill_description": "Boost main team Attack and chance of Critical Hits by a Large amount for 4 turns and Boost main team Speed by a Medium amount for 4 turns ",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			}
 		],
@@ -826,7 +826,7 @@
 	"137001010": {
 		"name": "Ryotsu Kankichi",
 		"title": "Immortal Police Work",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "physical",
 		"class": "support",
 		"series": "Kochikame",
@@ -840,8 +840,8 @@
 			"Order",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the chance of Critical Hits for Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the chance of Critical Hits for Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Order characteristic",
 			"Boost the Ultimate Attack Damage of all team members that are Physical type",
 			"When the number of team members is 3 or less, all members of your team will gain an additional attack per turn"
@@ -854,34 +854,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "I'll Beat It!",
-					"skill-description": "Inflict 5 hits of 150% damage to the target",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+					"skill_name": "I'll Beat It!",
+					"skill_description": "Inflict 5 hits of 150% damage to the target",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Trouble Maker",
-					"skill-description": "Inflict 150% damage to the enemy main team",
-					"initial-cooldown": "34",
-					"max-cooldown": "25"
+				"skill_1": {
+					"skill_name": "Trouble Maker",
+					"skill_description": "Inflict 150% damage to the enemy main team",
+					"initial_cooldown": "34",
+					"max_cooldown": "25"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Iron Fist Punch",
-					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_2": {
+					"skill_name": "Iron Fist Punch",
+					"skill_description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Carefully Rooted",
-					"skill-description": "Negate all positive buffs on the enemy main team",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+				"skill_3": {
+					"skill_name": "Carefully Rooted",
+					"skill_description": "Negate all positive buffs on the enemy main team",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			}
 		],
@@ -905,10 +905,89 @@
 			"enemy-main-positive-buff-negator"
 		]
 	},
+	"138001010": {
+		"name": "Ichido Rei",
+		"title": "Eyebrowless Zero",
+		"era": "1980",
+		"type": "technique",
+		"class": "healer",
+		"series": "High School! Kimengumi",
+		"obtainable": "gacha",
+		"image_card_path": "assets/images/cards/Ichido_Rei.png",
+		"image_portrait_path": "assets/images/portraits/Ichido_Rei.png",
+		"characteristics": [
+			"Student",
+			"Disguise",
+			"Trouble Maker",
+			"Protagonist"
+		],
+		"leader_skill": "Boost the HP of Technique units by an Extreme amount",
+		"passive_skills": [
+			"Boost Speed by a Medium amount",
+			"Boost the Defence of all team members against attacks from Technique enemies",
+			"When this units HP is below 50%, boost the Speed of all team members by a Large amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "Furei Furei Support!",
+					"skill_description": "Boost the Attack and Defence of main team allies by an Extreme amount and apply a +600 HP Auto Recovery Status to the main team for 4 turns",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "As Expected After All!",
+					"skill_description": "Recover the HP of all team members by a Medium amount and randomly recover HP again for 3 allies",
+					"initial_cooldown": "72",
+					"max_cooldown": "63"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "Passing Away",
+					"skill_description": "Boost this unit's Defence by an Extreme amount for 4 turns and block damage for this unit 2 times",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "Pursuit of Individuality",
+					"skill_description": "Boost the Speed of main team allies by a Medium amount for 4 turns and roll forward the skill gauge for all allies (not including this unit) by 10% ",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"technique-lead",
+			"hp-lead",
+			"stat-booster",
+			"speed-booster",
+			"defence-booster",
+			"anti-type",
+			"anti-technique",
+			"attack-booster",
+			"eot-healer",
+			"main-eot-healer",
+			"healer",
+			"random-healer",
+			"blocker",
+			"cooldown-reducer"
+		]
+	},
 	"141001010": {
 		"name": "Hiroshi & Pyonkichi",
 		"title": "Rooted to a Flat Surface Frog",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "physical",
 		"class": "dps",
 		"series": "Dokonjo Gaeru",
@@ -921,8 +1000,8 @@
 			"Water",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost the unit's chance of Critical Hits",
 			"Boost the chance of Critical Hits for all team members that are Heart type by a Medium amount",
 			"When this unit's HP is 50% or less, boost this unit's Attack by a Large amount"
@@ -935,34 +1014,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Biting",
-					"skill-description": "Inflict 400% damage to the enemy main team",
-					"initial-cooldown": "51",
-					"max-cooldown": "42"
+					"skill_name": "Biting",
+					"skill_description": "Inflict 400% damage to the enemy main team",
+					"initial_cooldown": "51",
+					"max_cooldown": "42"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Bottom Power",
-					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_1": {
+					"skill_name": "Bottom Power",
+					"skill_description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Hiroshis Palace",
-					"skill-description": "Inflict 100% damage to the target and reduce their Attack and Defence by a Medium amount for 4 turns",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_2": {
+					"skill_name": "Hiroshis Palace",
+					"skill_description": "Inflict 100% damage to the target and reduce their Attack and Defence by a Medium amount for 4 turns",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Dirty!",
-					"skill-description": "Inflict 3 hits of 80% damage to the target, Boost this unit's normal attacks per turn by +1 for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_3": {
+					"skill_name": "Dirty!",
+					"skill_description": "Inflict 3 hits of 80% damage to the target, Boost this unit's normal attacks per turn by +1 for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			}
 		],
@@ -996,15 +1075,15 @@
 		"class": "dps",
 		"series": "Dr. Slump",
 		"obtainable": "gacha",
-		"image_card_path": "assets/images/cards/Arale_Norimaki.png",
-		"image_portrait_path": "assets/images/portraits/Arale_Norimaki.png",
+		"image_card_path": "assets/images/cards/Arale.png",
+		"image_portrait_path": "assets/images/portraits/Arale.png",
 		"characteristics": [
 			"Artificial",
 			"Protagonist",
 			"Glasses"
 		],
-		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost this unit's Attack by a Large amount against Heart enemies",
 			"Boost this unit's Defence by a Super Mega amount against enemies with the Hand to Hand Combat characteristic",
 			"Twice from the start of battle, prevent Stat Debuffs on this unit"
@@ -1017,34 +1096,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "N'cha Cannon",
-					"skill-description": "Inflict 550% damage to the enemy main team with a chance to Stun for 2 turns",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+					"skill_name": "N'cha Cannon",
+					"skill_description": "Inflict 550% damage to the enemy main team with a chance to Stun for 2 turns",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Tsukurakku",
-					"skill-description": "Boost this unit's Damage Dealt to Heart units by a Mega amount for 3 turns",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_1": {
+					"skill_name": "Tsukurakku",
+					"skill_description": "Boost this unit's Damage Dealt to Heart units by a Mega amount for 3 turns",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "RoboPitan A",
-					"skill-description": "Boost this unit's Attack by an Extreme amount for 2 turns and recover her HP by a Medium amount",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_2": {
+					"skill_name": "RoboPitan A",
+					"skill_description": "Boost this unit's Attack by an Extreme amount for 2 turns and recover her HP by a Medium amount",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Kiin!",
-					"skill-description": "Inflict 250% damage to the target",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
+				"skill_3": {
+					"skill_name": "Kiin!",
+					"skill_description": "Inflict 250% damage to the target",
+					"initial_cooldown": "33",
+					"max_cooldown": "24"
 				}
 			}
 		],
@@ -1086,8 +1165,8 @@
 			"Order",
 			"Glasses"
 		],
-		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of all Physical team members by a Medium amount",
 			"Boost the Ultimate Attack Damage of all team members with the Artificial characteristic by a Medium amount",
 			"Reduce the Damage Received by all team members with the Artificial characteristic by a Medium amount"
@@ -1100,34 +1179,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Attack: Excuse me, I'm sorry",
-					"skill-description": "Boost this unit's Damage Dealt to Heart units by an Extreme amount for 1 turn and inflict 700% damage to the target",
-					"initial-cooldown": "46",
-					"max-cooldown": "37"
+					"skill_name": "Attack: Excuse me, I'm sorry",
+					"skill_description": "Boost this unit's Damage Dealt to Heart units by an Extreme amount for 1 turn and inflict 700% damage to the target",
+					"initial_cooldown": "46",
+					"max_cooldown": "37"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Greeting Gift",
-					"skill-description": "Heal all allies (not including this unit) by a Medium amount, if they are Physical type then boost their Damage Dealt to Heart units by an Extreme amount for 1 turn",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+				"skill_1": {
+					"skill_name": "Greeting Gift",
+					"skill_description": "Heal all allies (not including this unit) by a Medium amount, if they are Physical type then boost their Damage Dealt to Heart units by an Extreme amount for 1 turn",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Loving Earth",
-					"skill-description": "Inflict 250% to the enemy main team, if they are Heart type, Roll Back their Skill and Ultimate Attack cooldowns by 5%",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_2": {
+					"skill_name": "Loving Earth",
+					"skill_description": "Inflict 250% to the enemy main team, if they are Heart type, Roll Back their Skill and Ultimate Attack cooldowns by 5%",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Greeting Cannon",
-					"skill-description": "Inflict 300% damage to the target and negate all Stat buffs",
-					"initial-cooldown": "43",
-					"max-cooldown": "34"
+				"skill_3": {
+					"skill_name": "Greeting Cannon",
+					"skill_description": "Inflict 300% damage to the target and negate all Stat buffs",
+					"initial_cooldown": "43",
+					"max_cooldown": "34"
 				}
 			}
 		],
@@ -1148,8 +1227,8 @@
 			"healer",
 			"all-healer",
 			"main-target-single-hitter",
-			"rollback-cooldown",
-			"rollback-heart-cooldown",
+			"rollback_cooldown",
+			"rollback-heart_cooldown",
 			"stat-buff-negator",
 			"single-target-stat-buff-negator"
 		]
@@ -1157,7 +1236,7 @@
 	"150001010": {
 		"name": "Ryuuji Takane",
 		"title": "Jr. Japanese Champion",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "strength",
 		"class": "dps",
 		"series": "Ring ni Kakero",
@@ -1170,8 +1249,8 @@
 			"Hot Blooded",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength and Physical units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength and Physical units by a Large amount",
+		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Hand to Hand Combat characteristic",
 			"25% chance for this unit to counter any normal attack",
 			"Prevent Stun to this unit once"
@@ -1184,34 +1263,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Winning the Rainbow",
-					"skill-description": "Inflict 450% damage to the target enemy and roll back their cool downs by 15%",
-					"initial-cooldown": "37",
-					"max-cooldown": "28"
+					"skill_name": "Winning the Rainbow",
+					"skill_description": "Inflict 450% damage to the target enemy and roll back their cool downs by 15%",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Boomerang Hook",
-					"skill-description": "Inflict 100% damage to the target enemy and there is a chance to seal their Ultimate Attack, If the enemy is Intelligence type, the seal is guaranteed for 2 turns ",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_1": {
+					"skill_name": "Boomerang Hook",
+					"skill_description": "Inflict 100% damage to the target enemy and there is a chance to seal their Ultimate Attack, If the enemy is Intelligence type, the seal is guaranteed for 2 turns ",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Boomerang Square",
-					"skill-description": "Inflict 140% damage to the target enemy an there is a chance to stun for 2 turns ",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+				"skill_2": {
+					"skill_name": "Boomerang Square",
+					"skill_description": "Inflict 140% damage to the target enemy an there is a chance to stun for 2 turns ",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Boomerang Telios",
-					"skill-description": "Inflict 150% damage to the target enemy, this attack ignores enemy defence ",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_3": {
+					"skill_name": "Boomerang Telios",
+					"skill_description": "Inflict 150% damage to the target enemy, this attack ignores enemy defence ",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			}
 		],
@@ -1225,7 +1304,7 @@
 			"counterer",
 			"single-hitter",
 			"single-target-single-hitter",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"sealer",
 			"ultimate-sealer",
 			"anti-type",
@@ -1237,7 +1316,7 @@
 	"151001010": {
 		"name": "Takao Taniguchi",
 		"title": "Captain of Sumitani High",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "intelligence",
 		"class": "tank",
 		"series": "Play Ball",
@@ -1251,8 +1330,8 @@
 			"Hard Worker",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Defence of Intelligence units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Defence of Intelligence units by an Extreme amount",
+		"passive_skills": [
 			"Boost this unit's Defence against attacks from enemies with the Athlete characteristic",
 			"Boost the HP of all team members that are Intelligence type by a Medium amount",
 			"When this units HP is 50% or less, boost this unit's Attack by a Large amount"
@@ -1265,34 +1344,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Fork Ball",
-					"skill-description": "Boost Damage Dealt to units with the Athlete characteristic by a Super Mega amount for 2 turns and Inflict 710% damage to the target enemy",
-					"initial-cooldown": "59",
-					"max-cooldown": "50"
+					"skill_name": "Fork Ball",
+					"skill_description": "Boost Damage Dealt to units with the Athlete characteristic by a Super Mega amount for 2 turns and Inflict 710% damage to the target enemy",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "No.4 Batter",
-					"skill-description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_1": {
+					"skill_name": "No.4 Batter",
+					"skill_description": "Inflict 140% damage to the target and chance to Stun target for 2 turns",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Analysis",
-					"skill-description": "Reduce the Attack of the enemy main team by a Medium amount for 4 turns, furthermore, chance to Blind enemies for 4 turns",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_2": {
+					"skill_name": "Analysis",
+					"skill_description": "Reduce the Attack of the enemy main team by a Medium amount for 4 turns, furthermore, chance to Blind enemies for 4 turns",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Captains Dignity",
-					"skill-description": "Boost the Defence of all main team allies by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns. If the ally has the Athlete characteristic, boost their Attack by an Extreme amount for 4 turns",
-					"initial-cooldown": "54",
-					"max-cooldown": "45"
+				"skill_3": {
+					"skill_name": "Captains Dignity",
+					"skill_description": "Boost the Defence of all main team allies by a Large amount for 4 turns and apply a +100 HP Auto Recovery Status to the main team for 4 turns. If the ally has the Athlete characteristic, boost their Attack by an Extreme amount for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
 				}
 			}
 		],
@@ -1323,7 +1402,7 @@
 	"167001010": {
 		"name": "Suguru Kinniku",
 		"title": "Prince of Planet Kinniku",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "physical",
 		"class": "dps",
 		"series": "Kinnikuman",
@@ -1338,8 +1417,8 @@
 			"Alien",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of Physical team members by a Medium amount",
 			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
 			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
@@ -1352,34 +1431,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Double Kinniku Buster",
-					"skill-description": "Inflict 2 hits of 400% damage to the target",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+					"skill_name": "Double Kinniku Buster",
+					"skill_description": "Inflict 2 hits of 400% damage to the target",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Kajiba no Kuso Djikara",
-					"skill-description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
-					"initial-cooldown": "29",
-					"max-cooldown": "20"
+				"skill_1": {
+					"skill_name": "Kajiba no Kuso Djikara",
+					"skill_description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
+					"initial_cooldown": "29",
+					"max_cooldown": "20"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Fu Rin Ka Zan",
-					"skill-description": "Inflict 4 hits of 150% damage to the target",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
+				"skill_2": {
+					"skill_name": "Fu Rin Ka Zan",
+					"skill_description": "Inflict 4 hits of 150% damage to the target",
+					"initial_cooldown": "33",
+					"max_cooldown": "24"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Kinniku Buster",
-					"skill-description": "Inflict 400% damage that ignores defence to the target ",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_3": {
+					"skill_name": "Kinniku Buster",
+					"skill_description": "Inflict 400% damage that ignores defence to the target ",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			}
 		],
@@ -1403,7 +1482,7 @@
 	"167001011": {
 		"name": "Suguru Kinniku",
 		"title": "Miracle Comeback Fighter",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "physical",
 		"class": "dps",
 		"series": "Kinnikuman",
@@ -1418,8 +1497,8 @@
 			"Alien",
 			"Protagonist"
 		],
-		"leader-skill": "Boost the Attack of Strength and Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Strength and Physical units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of Physical team members by a Medium amount",
 			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
 			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
@@ -1432,42 +1511,42 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Kinniku Driver",
-					"skill-description": "Boost this unit's Damage Dealt to Heart enemies by a Mega amount for 1 turn, inflict 600% damage to the target and a further 400% damage to all enemies",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+					"skill_name": "Kinniku Driver",
+					"skill_description": "Boost this unit's Damage Dealt to Heart enemies by a Mega amount for 1 turn, inflict 600% damage to the target and a further 400% damage to all enemies",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Kajiba no Kuso Djikara",
-					"skill-description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
-					"initial-cooldown": "29",
-					"max-cooldown": "20"
+				"skill_1": {
+					"skill_name": "Kajiba no Kuso Djikara",
+					"skill_description": "When this unit has 5% HP or more apply a Guts state to himself that, when a move would reduce his HP to 0, reduces it only to 50% instead for 1 hit and reduce this unit's Damage Received by a Large amount for 1 turn",
+					"initial_cooldown": "29",
+					"max_cooldown": "20"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Fu Rin Ka Zan",
-					"skill-description": "Inflict 4 hits of 150% damage to the target",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
+				"skill_2": {
+					"skill_name": "Fu Rin Ka Zan",
+					"skill_description": "Inflict 4 hits of 150% damage to the target",
+					"initial_cooldown": "33",
+					"max_cooldown": "24"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Kinniku Buster",
-					"skill-description": "Inflict 400% damage that ignores defence to the target ",
-					"initial-cooldown": "39",
-					"max-cooldown": "30"
+				"skill_3": {
+					"skill_name": "Kinniku Buster",
+					"skill_description": "Inflict 400% damage that ignores defence to the target ",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
 				}
 			},
 			{
-				"skill-4": {
-					"skill-name": "The Power of Friendship",
-					"skill-description": "Boost the Attack of all Physical team members by an Extreme amount for 2 turns and make them immune to Ultimate Attack Rollback for 2 turns ",
-					"initial-cooldown": "27",
-					"max-cooldown": "18"
+				"skill_4": {
+					"skill_name": "The Power of Friendship",
+					"skill_description": "Boost the Attack of all Physical team members by an Extreme amount for 2 turns and make them immune to Ultimate Attack Rollback for 2 turns ",
+					"initial_cooldown": "27",
+					"max_cooldown": "18"
 				}
 			}
 		],
@@ -1507,8 +1586,8 @@
 			"persistent",
 			"protagonist"
 		],
-		"leader-skill": "Boost the Attack of Agile and Technique units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Agile and Technique units by a Large amount",
+		"passive_skills": [
 			"Boost the Attack of all team members that are Technique type by a Large amount",
 			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
 			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
@@ -1521,34 +1600,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Overhead Kick",
-					"skill-description": "Inflict 400% damage to the enemy main team",
-					"initial-cooldown": "45",
-					"max-cooldown": "36"
+					"skill_name": "Overhead Kick",
+					"skill_description": "Inflict 400% damage to the enemy main team",
+					"initial_cooldown": "45",
+					"max_cooldown": "36"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Playmaker",
-					"skill-description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_1": {
+					"skill_name": "Playmaker",
+					"skill_description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Diving Header",
-					"skill-description": "Inflict 270% damage to the enemy main team",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_2": {
+					"skill_name": "Diving Header",
+					"skill_description": "Inflict 270% damage to the enemy main team",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Jumping Volley",
-					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_3": {
+					"skill_name": "Jumping Volley",
+					"skill_description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			}
 		],
@@ -1570,7 +1649,7 @@
 			"damage-booster",
 			"ultimate-damage-booster",
 			"single-target-single-hitter",
-			"rollback-cooldown"
+			"rollback_cooldown"
 		]
 	},
 	"168001011": {
@@ -1590,8 +1669,8 @@
 			"persistent",
 			"protagonist"
 		],
-		"leader-skill": "Boost the Attack of Agile and Technique units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Agile and Technique units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of all team members that are Technique type by a Large amount",
 			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
 			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
@@ -1604,42 +1683,42 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Drive Shot",
-					"skill-description": "Inflict 550% damage to the enemy main team",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+					"skill_name": "Drive Shot",
+					"skill_description": "Inflict 550% damage to the enemy main team",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Playmaker",
-					"skill-description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_1": {
+					"skill_name": "Playmaker",
+					"skill_description": "Boost the Damage Dealt of all team members by a Large amount for 3 turns, furthermore, boost the Ultimate Attack Damage of all team members with the Athlete characteristic by an Extreme amount for 3 turns",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Diving Header",
-					"skill-description": "Inflict 270% damage to the enemy main team",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_2": {
+					"skill_name": "Diving Header",
+					"skill_description": "Inflict 270% damage to the enemy main team",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Jumping Volley",
-					"skill-description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_3": {
+					"skill_name": "Jumping Volley",
+					"skill_description": "Inflict 250% damage to the target and roll back their skill gauge by 10%",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-4": {
-					"skill-name": "Miracle Shot",
-					"skill-description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_4": {
+					"skill_name": "Miracle Shot",
+					"skill_description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			}
 		],
@@ -1661,7 +1740,7 @@
 			"damage-booster",
 			"ultimate-damage-booster",
 			"single-target-single-hitter",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"anti-type",
 			"anti-physical",
 			"support-target-single-hitter"
@@ -1682,48 +1761,48 @@
 			"Athlete",
 			"Hot Blooded"
 		],
-		"leader-skill": "Boost the Defence of Physical units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Defence of Physical units by an Extreme amount",
+		"passive_skills": [
 			"Guard all allies from normal attacks",
 			"Boost the Defence of all team members with the Athlete characteristic by a Medium amount",
 			"Until the end of the first that turn this unit is attacked, reduce Damage Inflicted to this unit by a Mega amount"
 		],
 		"stats": {
-			"hp": "",
-			"attack": "",
-			"defence": "",
-			"speed": ""
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Monkey Dive",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Inflicted to all team members by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead ",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+					"skill_name": "Monkey Dive",
+					"skill_description": "Inflict 10% of their Max HP to this unit in damage, reduce Damage Inflicted to all team members by a Large amount for 1 turn, if they have the Athlete characteristic reduce by an Extreme amount instead ",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Ganmen Block",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once ",
-					"initial-cooldown": "44",
-					"max-cooldown": "35"
+				"skill_1": {
+					"skill_name": "Ganmen Block",
+					"skill_description": "Inflict 10% of their Max HP to this unit in damage, block damage for this unit and one other random unit once ",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Overlapping Thoughts",
-					"skill-description": "Inflict 200% damage to the target",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+				"skill_2": {
+					"skill_name": "Overlapping Thoughts",
+					"skill_description": "Inflict 200% damage to the target",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Abandon Defence",
-					"skill-description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all team members by a Large amount for 1 turn, if they have the Athlete characteristic boost by a Mega amount instead",
-					"initial-cooldown": "35",
-					"max-cooldown": "26"
+				"skill_3": {
+					"skill_name": "Abandon Defence",
+					"skill_description": "Inflict 10% of their Max HP to this unit in damage, boost the Defence of all team members by a Large amount for 1 turn, if they have the Athlete characteristic boost by a Mega amount instead",
+					"initial_cooldown": "35",
+					"max_cooldown": "26"
 				}
 			}
 		],
@@ -1744,7 +1823,7 @@
 	"173001010": {
 		"name": "Cobra",
 		"title": "Immortal Space Pirate",
-		"era": "<1970s",
+		"era": "<1970",
 		"type": "agile",
 		"class": "all-rounder",
 		"series": "Cobra",
@@ -1756,8 +1835,8 @@
 			"Protagonist",
 			"Adventure"
 		],
-		"leader-skill": "Boost the Attack of Agile units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Agile units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of all members of your team that are Agile type by a Medium amount",
 			"Boost this unit's Damage Dealt to enemies with the Alien characteristic by a Large amount",
 			"Boost the Defence of all members of your team with the Heroine characteristic by an Extreme amount"
@@ -1770,34 +1849,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Psychogun",
-					"skill-description": "Inflict 450% damage to the enemy main team that ignores enemy defence, furthermore, roll-back their skills by 15% ",
-					"initial-cooldown": "42",
-					"max-cooldown": "33"
+					"skill_name": "Psychogun",
+					"skill_description": "Inflict 450% damage to the enemy main team that ignores enemy defence, furthermore, roll-back their skills by 15% ",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Preparatory Cigar",
-					"skill-description": "Inflict 150% damage to the enemy main team",
-					"initial-cooldown": "33",
-					"max-cooldown": "24"
+				"skill_1": {
+					"skill_name": "Preparatory Cigar",
+					"skill_description": "Inflict 150% damage to the enemy main team",
+					"initial_cooldown": "33",
+					"max_cooldown": "24"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Colt Magnum .77 Python",
-					"skill-description": "Inflict 400% damage to the target and a further 250% to the enemy main team ",
-					"initial-cooldown": "45",
-					"max-cooldown": "36"
+				"skill_2": {
+					"skill_name": "Colt Magnum .77 Python",
+					"skill_description": "Inflict 400% damage to the target and a further 250% to the enemy main team ",
+					"initial_cooldown": "45",
+					"max_cooldown": "36"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Slight Words",
-					"skill-description": "Reduce the Ultimate Attack Damage of enemy supports by a Large amount for 2 turns ",
-					"initial-cooldown": "31",
-					"max-cooldown": "22"
+				"skill_3": {
+					"skill_name": "Slight Words",
+					"skill_description": "Reduce the Ultimate Attack Damage of enemy supports by a Large amount for 2 turns ",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
 				}
 			}
 		],
@@ -1817,7 +1896,7 @@
 			"single-hitter",
 			"main-target-single-hitter",
 			"ignore-defence",
-			"rollback-cooldown",
+			"rollback_cooldown",
 			"single-target-single-hitter",
 			"ultimate-damage-reducer"
 		]
@@ -1838,8 +1917,8 @@
 			"manliness",
 			"order"
 		],
-		"leader-skill": "Boost the Attack of Agile units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Agile units by an Extreme amount",
+		"passive_skills": [
 			"Boost the Attack of allies with the Swordsman characteristic by a Medium amount",
 			"Boost the HP of allies with the Swordsman characteristic by a Medium amount",
 			"Boost the Ultimate Attack Damage of allies with the Swordsman characteristic by a Large amount"
@@ -1852,34 +1931,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Muramasha sword",
-					"skill-description": "Inflict 350% damage to the enemy main team",
-					"initial-cooldown": "43",
-					"max-cooldown": "34"
+					"skill_name": "Muramasha sword",
+					"skill_description": "Inflict 350% damage to the enemy main team",
+					"initial_cooldown": "43",
+					"max_cooldown": "34"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Berserk Steel Cleaving Katana",
-					"skill-description": "Inflict 250% damage that ignores defence to the target",
-					"initial-cooldown": "36",
-					"max-cooldown": "27"
+				"skill_1": {
+					"skill_name": "Berserk Steel Cleaving Katana",
+					"skill_description": "Inflict 250% damage that ignores defence to the target",
+					"initial_cooldown": "36",
+					"max_cooldown": "27"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Hijikata Special",
-					"skill-description": "Heal this unit by a Medium amount and negate all negative stat debuffs ",
-					"initial-cooldown": "32",
-					"max-cooldown": "23"
+				"skill_2": {
+					"skill_name": "Hijikata Special",
+					"skill_description": "Heal this unit by a Medium amount and negate all negative stat debuffs ",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "Bureau of Law",
-					"skill-description": "Boost the Attack of all allies by a Medium amount for 3 turns, if they are Agile type boost by an Extreme amount instead",
-					"initial-cooldown": "29",
-					"max-cooldown": "20"
+				"skill_3": {
+					"skill_name": "Bureau of Law",
+					"skill_description": "Boost the Attack of all allies by a Medium amount for 3 turns, if they are Agile type boost by an Extreme amount instead",
+					"initial_cooldown": "29",
+					"max_cooldown": "20"
 				}
 			}
 		],
@@ -1920,8 +1999,8 @@
 			"protagonist",
 			"glasses"
 		],
-		"leader-skill": "Boost the Attack of Intelligence units by an Extreme amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Intelligence units by an Extreme amount",
+		"passive_skills": [
 			"Boost Ultimate Attack Damage for Intelligence allies",
 			"Boost the Attack of Intelligence allies by a Medium amount",
 			"When there are 5 or more units on your team, boost the Attack of allies by a Medium amount"
@@ -1934,34 +2013,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Overflowing Creative Energy",
-					"skill-description": "Roll forward the skill gauge of all allies by 10%, Boost ally Attack by a Medium amount for 3 turns, if they are Intelligence type then boost by a Large amount instead",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+					"skill_name": "Overflowing Creative Energy",
+					"skill_description": "Roll forward the skill gauge of all allies by 10%, Boost ally Attack by a Medium amount for 3 turns, if they are Intelligence type then boost by a Large amount instead",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Money and Intelligence",
-					"skill-description": "Boost the Ultimate Attack Damage of all allies by a Medium amount for 3 turns, if they are Intelligence type then boost by a Large amount instead ",
-					"initial-cooldown": "43",
-					"max-cooldown": "34"
+				"skill_1": {
+					"skill_name": "Money and Intelligence",
+					"skill_description": "Boost the Ultimate Attack Damage of all allies by a Medium amount for 3 turns, if they are Intelligence type then boost by a Large amount instead ",
+					"initial_cooldown": "43",
+					"max_cooldown": "34"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Detective Trap",
-					"skill-description": "Inflict 400% damage to the target, if the target is Agile type then inflict another 200% damage",
-					"initial-cooldown": "47",
-					"max-cooldown": "38"
+				"skill_2": {
+					"skill_name": "Detective Trap",
+					"skill_description": "Inflict 400% damage to the target, if the target is Agile type then inflict another 200% damage",
+					"initial_cooldown": "47",
+					"max_cooldown": "38"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "PCP Perfect Crime Party",
-					"skill-description": "Boost the Damage Dealt by Agile allies by Medium amount for 3 turns, if they are All Rounder or DPS class then boost their Damage Dealt by an Extreme amount instead for 3 turns ",
-					"initial-cooldown": "43",
-					"max-cooldown": "34"
+				"skill_3": {
+					"skill_name": "PCP Perfect Crime Party",
+					"skill_description": "Boost the Damage Dealt by Agile allies by Medium amount for 3 turns, if they are All Rounder or DPS class then boost their Damage Dealt by an Extreme amount instead for 3 turns ",
+					"initial_cooldown": "43",
+					"max_cooldown": "34"
 				}
 			}
 		],
@@ -1998,8 +2077,8 @@
 				"manliness",
 				"gang"
 			],
-			"leader-skill": "Boost the Defence of Agile and Technique units by a Large amount",
-			"passive-skill": [
+			"leader_skill": "Boost the Defence of Agile and Technique units by a Large amount",
+			"passive_skills": [
 				"Once at the start of battle, roll forward the skill gauge of characters with the Gang characteristic by 30%",
 				"Negate 1 Status debuff for characters with the Gang characteristic",
 				"Reduce Damage Received by this unit by a Medium amount"
@@ -2012,34 +2091,34 @@
 			},
 			"skill": [{
 					"ultimate": {
-						"skill-name": "Sticky Fingers",
-						"skill-description": "Reduce the Damage Dealt by the enemy main team by an Extreme amount for 2 turns if they have the Gang characteristic reduce by a further Medium amount",
-						"initial-cooldown": "43",
-						"max-cooldown": "34"
+						"skill_name": "Sticky Fingers",
+						"skill_description": "Reduce the Damage Dealt by the enemy main team by an Extreme amount for 2 turns if they have the Gang characteristic reduce by a further Medium amount",
+						"initial_cooldown": "43",
+						"max_cooldown": "34"
 					}
 				},
 				{
-					"skill-1": {
-						"skill-name": "The Taste of a Liar",
-						"skill-description": "Chance to inflict Fear to a random enemy for 2 turns ",
-						"initial-cooldown": "35",
-						"max-cooldown": "26"
+					"skill_1": {
+						"skill_name": "The Taste of a Liar",
+						"skill_description": "Chance to inflict Fear to a random enemy for 2 turns ",
+						"initial_cooldown": "35",
+						"max_cooldown": "26"
 					}
 				},
 				{
-					"skill-2": {
-						"skill-name": "Long Reaching Fist",
-						"skill-description": "Inflict 150% damage to all enemy supports",
-						"initial-cooldown": "31",
-						"max-cooldown": "22"
+					"skill_2": {
+						"skill_name": "Long Reaching Fist",
+						"skill_description": "Inflict 150% damage to all enemy supports",
+						"initial_cooldown": "31",
+						"max_cooldown": "22"
 					}
 				},
 				{
-					"skill-3": {
-						"skill-name": "Zipped Apart",
-						"skill-description": "Inflict 200% damage to the enemy main team and reduce their Attack by a Medium amount for 1 turn ",
-						"initial-cooldown": "33",
-						"max-cooldown": "24"
+					"skill_3": {
+						"skill_name": "Zipped Apart",
+						"skill_description": "Inflict 200% damage to the enemy main team and reduce their Attack by a Medium amount for 1 turn ",
+						"initial_cooldown": "33",
+						"max_cooldown": "24"
 					}
 				}
 			],
@@ -2054,7 +2133,7 @@
 				"debuff-preventer",
 				"damage-reducer",
 				"sealer",
-				"skill-sealer",
+				"skill_sealer",
 				"single-hitter",
 				"support-target-single-hitter",
 				"main-target-single-hitter",
@@ -2080,8 +2159,8 @@
       "pro",
       "teacher"
 		],
-		"leader-skill": "Boost the Attack of Heart and Physical units by a Large amount",
-		"passive-skill": [
+		"leader_skill": "Boost the Attack of Heart and Physical units by a Large amount",
+		"passive_skills": [
 			"Once at the start of battle, roll forward this unit's skill gauge by 70%",
 			"Boost the HP of allies with the Hero characteristic",
 			"When this unit's HP is 30% or more, boost their Attack by a Large amount"
@@ -2094,34 +2173,34 @@
 		},
 		"skill": [{
 				"ultimate": {
-					"skill-name": "Texas Smash",
-					"skill-description": "Inflict 600% damage to the enemy main team",
-					"initial-cooldown": "119",
-					"max-cooldown": "110"
+					"skill_name": "Texas Smash",
+					"skill_description": "Inflict 600% damage to the enemy main team",
+					"initial_cooldown": "119",
+					"max_cooldown": "110"
 				}
 			},
 			{
-				"skill-1": {
-					"skill-name": "Detroit Smash",
-					"skill-description": "Inflict 200% damage to the enemy main team",
-					"initial-cooldown": "79",
-					"max-cooldown": "70"
+				"skill_1": {
+					"skill_name": "Detroit Smash",
+					"skill_description": "Inflict 200% damage to the enemy main team",
+					"initial_cooldown": "79",
+					"max_cooldown": "70"
 				}
 			},
 			{
-				"skill-2": {
-					"skill-name": "Carolina Smash",
-					"skill-description": "Inflict 250% damage to the target",
-					"initial-cooldown": "79",
-					"max-cooldown": "70"
+				"skill_2": {
+					"skill_name": "Carolina Smash",
+					"skill_description": "Inflict 250% damage to the target",
+					"initial_cooldown": "79",
+					"max_cooldown": "70"
 				}
 			},
 			{
-				"skill-3": {
-					"skill-name": "I Am Here!!",
-					"skill-description": "When allies have 5% HP or more, apply Guts status for 1 hit",
-					"initial-cooldown": "49",
-					"max-cooldown": "40"
+				"skill_3": {
+					"skill_name": "I Am Here!!",
+					"skill_description": "When allies have 5% HP or more, apply Guts status for 1 hit",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
 				}
 			}
 		],
