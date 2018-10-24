@@ -15,17 +15,17 @@
 			"Pure",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost damage dealt to enemies with the Hand to hand combat characteristic",
-			"Boost the chance of Critical Hits for Agile allies by a Medium amount",
+			"Boost the chance of Critical Hits for <span class='agile'><b>Agile</b></span> allies by a Medium amount",
 			"When HP is below 50%, this unit counters every normal attack"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "8976",
+			"attack": "2068",
+			"defence": "825",
+			"speed": "36"
 		},
 		"skill": [{
 				"ultimate": {
@@ -95,17 +95,17 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> and <span class='heart'><b>Heart</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost the Attack of Main Team Allies by a Large amount",
 			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
 			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "9886",
+			"attack": "1884",
+			"defence": "1231",
+			"speed": "34"
 		},
 		"skill": [{
 				"ultimate": {
@@ -176,17 +176,17 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength, Heart and Technique units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span>, <span class='heart'><b>Heart</b></span> and <span class='technique'><b>Technique</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost the Attack of Main Team Allies by a Large amount",
 			"Boost Defence by a Large amount against enemies with the Hand to Hand Combat characteristic",
 			"All Main Team Allies will ignore the first hit of damage at the beginning of the fight"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "10811",
+			"attack": "2081",
+			"defence": "1350",
+			"speed": "36"
 		},
 		"skill": [{
 				"ultimate": {
@@ -271,10 +271,10 @@
 			"Hard Worker",
 			"Light"
 		],
-		"leader_skill": "Boost the chance of Critical hits for Technique and Physical units by a Large amount",
+		"leader_skill": "Boost the chance of Critical hits for <span class='technique'><b>Technique</b></span> and <span class='physical'><b>Physical</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost Speed by a Medium amount",
-			"Boost the Speed of Technique allies by a Medium amount",
+			"Boost the Speed of <span class='technique'><b>Technique</b></span> allies by a Medium amount",
 			"Remove weakness debuffs from this unit twice"
 		],
 		"stats": {
@@ -353,17 +353,17 @@
 			"Sly",
 			"Evil"
 		],
-		"leader_skill": "Boost the Attack of Intelligence units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='intelligence'><b>Intelligence</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost the chance of Critical Hits",
 			"Boost the Attack of intelligence allies",
 			"Roll-forward the cooldown of this units skills by 50% once at the start of battle"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "8257",
+			"attack": "2093",
+			"defence": "874",
+			"speed": "31"
 		},
 		"skill": [{
 				"ultimate": {
@@ -433,17 +433,17 @@
 			"Rival",
 			"Evil"
 		],
-		"leader_skill": "Boost the Attack of Technique units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='technique'><b>Technique</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Prevent Ultimate Attack Seal on this unit once from the start of battle",
 			"When this unit's HP is 50% or less, boost the effect of his healing skill by an Extreme amount",
 			"When this unit's HP is 50% or more, boost his Ultimate Attack Damage by a Large amount"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "8004",
+			"attack": "2167",
+			"defence": "753",
+			"speed": "35"
 		},
 		"skill": [{
 				"ultimate": {
@@ -512,17 +512,17 @@
 			"Royal",
 			"Alien"
 		],
-		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost the Attack of allies with the Rival characteristic by a Medium amount",
 			"Boost the Ultimate Attack Damage of allies with the Rival characteristic by a Large amount",
 			"Reduce the Damage Dealt to this unit by enemies with the Protagonist characteristic by a Large amount"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "8915",
+			"attack": "1923",
+			"defence": "1010",
+			"speed": "32"
 		},
 		"skill": [{
 				"ultimate": {
@@ -594,17 +594,17 @@
 			"Weak",
 			"Prodigy"
 		],
-		"leader_skill": "Boost the Attack of Strength and Heart units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> and <span class='heart'><b>Heart</b></span> units by a Large amount",
 		"passive_skills": [
 			"When HP is below 80% HP, Boost this units Attack by a Medium amount",
 			"When HP is below 50% HP, Boost this units damage dealt by a Large amount",
 			"Boost the ATK of allies with the Alien characteristic by a Large amount"
 		],
 		"stats": {
-			"hp": "0",
-			"attack": "0",
-			"defence": "0",
-			"speed": "0"
+			"hp": "9216",
+			"attack": "1822",
+			"defence": "1169",
+			"speed": "30"
 		},
 		"skill": [{
 				"ultimate": {
@@ -617,7 +617,7 @@
 			{
 				"skill_1": {
 					"skill_name": "",
-					"skill_description": "Boost Attack by an Extreme amount against Intelligence units and characters with the Alien characteristic for 4 turns, Inflict 210% of this units Attack to target enemy",
+					"skill_description": "Boost Attack by an Extreme amount against <span class='intelligence'><b>Intelligence</b></span> units and characters with the Alien characteristic for 4 turns, Inflict 210% of this units Attack to target enemy",
 					"initial_cooldown": "37",
 					"max_cooldown": "28"
 				}
@@ -657,6 +657,334 @@
 			"single-target-multi-hitter"
 		]
 	},
+	"101006020": {
+		"name": "Son Gohan",
+		"title": "A Warrior to Surpass Son Goku",
+		"era": "1980",
+		"type": "heart",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "limited-gacha",
+		"image_card_path": "assets/images/cards/Gohan2.png",
+		"image_portrait_path": "assets/images/portraits/Gohan2.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Fighting Spirit",
+			"Prodigy"
+		],
+		"leader_skill": "Boost the Attack of <span class='heart'><b>Heart</b></span> units by an Extreme amount",
+		"passive_skills": [
+			"Boost the Attack of <span class='heart'><b>Heart</b></span> team members by a Medium amount",
+			"When team members are 4 or less, boost this unit's Attack by a Large amount",
+			"When this unit is the last unit left, reduce this unit's Damage Received by a Large amount"
+		],
+		"stats": {
+			"hp": "10112",
+			"attack": "1919",
+			"defence": "1122",
+			"speed": "36"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "Super Kamehameha",
+					"skill_description": "Inflict 500% damage to all enemies",
+					"initial_cooldown": "44",
+					"max_cooldown": "35"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "True Power Awakens",
+					"skill_description": "Negate all Status debuffs to this unit, boost this unit's Skill Damage by a Mega amount for 2 turns and inflict 250% damage to the target ",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "Burst of Rage",
+					"skill_description": "Inflict 200% damage that ignores defence to the enemy main team",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "Power that exceeds all",
+					"skill_description": "Inflict 200% damage to the target and a further 250% damage",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"heart-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"heart-booster",
+			"single-hitter",
+			"all-single-hitter",
+			"single-target-single-hitter",
+			"ignore-defence",
+			"multi-hitter",
+			"single-target-multi-hitter"
+		]
+	},
+	"101006021": {
+		"name": "Son Gohan",
+		"title": "Soul Bond Between Father and Son",
+		"era": "1980",
+		"type": "heart",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "limited-gacha",
+		"image_card_path": "assets/images/cards/Jump_Gohan2.png",
+		"image_portrait_path": "assets/images/portraits/Jump_Gohan2.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Fighting Spirit",
+			"Prodigy"
+		],
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> and <span class='heart'><b>Heart</b></span> units by an Extreme amount",
+		"passive_skills": [
+			"Boost the Attack of <span class='heart'><b>Heart</b></span> team members by a Medium amount",
+			"When team members are 4 or less, boost this unit's Attack by a Large amount",
+			"When this unit is the last unit left, reduce this unit's Damage Received by a Large amount"
+		],
+		"stats": {
+			"hp": "11060",
+			"attack": "2138",
+			"defence": "1220",
+			"speed": "38"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "Father-Son Kamehameha",
+					"skill_description": "Inflict 600% damage to all enemies and 300% damage to the target",
+					"initial_cooldown": "42",
+					"max_cooldown": "33"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "True Power Awakens",
+					"skill_description": "Negate all Status debuffs to this unit, boost this unit's Skill Damage by a Mega amount for 2 turns and inflict 250% damage to the target ",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "Burst of Rage",
+					"skill_description": "Inflict 200% damage that ignores defence to the enemy main team",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "Power that exceeds all",
+					"skill_description": "Inflict 200% damage to the target and a further 250% damage",
+					"initial_cooldown": "32",
+					"max_cooldown": "23"
+				}
+			},
+			{
+				"skill_4": {
+					"skill_name": "The bond between Father and Son",
+					"skill_description": "Boost the Ultimate Attack Damage of <span class='heart'><b>Heart</b></span> team members by an Extreme amount for 2 turns and Roll Forward the Ultimate Attack Cooldowns of every team member from the series Dragon Ball, other than this unit, by 10%",
+					"initial_cooldown": "30",
+					"max_cooldown": "21"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"strength-lead",
+			"heart-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"heart-booster",
+			"single-hitter",
+			"all-single-hitter",
+			"single-target-single-hitter",
+			"ignore-defence",
+			"multi-hitter",
+			"single-target-multi-hitter",
+			"ultimate-damage-booster",
+			"cooldown-reducer",
+			"ultimate-cooldown-reducer"
+		]
+	},
+	"101024030": {
+		"name": "Frieza",
+		"title": "Emperor of the Universe",
+		"era": "1980",
+		"type": "physical",
+		"class": "dps",
+		"series": "Dragon Ball",
+		"obtainable": "raid",
+		"image_card_path": "assets/images/cards/Frieza.png",
+		"image_portrait_path": "assets/images/portraits/Frieza.png",
+		"characteristics": [
+			"Hand to Hand Combat",
+			"Alien",
+			"Cool Headed",
+			"Evil"
+		],
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
+		"passive_skills": [
+			"Boost the Attack of <span class='physical'><b>Physical</b></span> team members by a Medium amount",
+			"Boost the HP of team members with the Alien characteristic by a Medium amount",
+			"Until the end of the first turn that this unit takes damage, reduce this unit's Damage Received by 1000"
+		],
+		"stats": {
+			"hp": "10096",
+			"attack": "1783",
+			"defence": "1196",
+			"speed": "37"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "Death Ball",
+					"skill_description": "Inflict 300% damage to all enemies. Negate all Stat buffs on <span class='heart'><b>Heart</b></span> enemies and prevent Stat buffs to them for 2 turns ",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "Planetary Destruction",
+					"skill_description": "Inflict 150% damage to the enemy main team, reduce their Ultimate Attack Damage by a Large amount for 2 turns. Roll Back the Ultimate Attack and Skill cooldowns of <span class='heart'><b>Heart</b></span> type main team enemies by 5% ",
+					"initial_cooldown": "29",
+					"max_cooldown": "20"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "I'll blast you into oblivion just like that other earthling",
+					"skill_description": "Inflict 150% damage to the enemy main team and boost their Damage Received from <span class='physical'><b>Physical</b></span> units by a Large amount for 2 turns",
+					"initial_cooldown": "31",
+					"max_cooldown": "22"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "Deathly Full Power",
+					"skill_description": "Boost this unit's Ultimate Attack Damage and Skill Damage by a Large amount for 2 turns",
+					"initial_cooldown": "27",
+					"max_cooldown": "18"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"stat-booster",
+			"attack-booster",
+			"type-booster",
+			"physical-booster",
+			"hp-booster",
+			"characteristics-booster",
+			"alien-booster",
+			"single-hitter",
+			"all-target-single-hitter",
+			"anti-type",
+			"anti-heart",
+			"main-target-single-hitter",
+			"ultimate-damage-reducer",
+			"rollback-cooldown",
+			"rollback-ultimate-cooldown",
+			"rollback-skill-cooldown"
+		]
+	},
+	"101052010": {
+		"name": "Bulma Briefs",
+		"title": "Tomboy Inventor",
+		"era": "1980",
+		"type": "physical",
+		"class": "all-rounder",
+		"series": "Dragon Ball",
+		"obtainable": "f2p",
+		"image_card_path": "assets/images/cards/Bulma_Briefs.png",
+		"image_portrait_path": "assets/images/portraits/Bulma_Briefs.png",
+		"characteristics": [
+			"Adventure",
+			"Heroine",
+			"Genius"
+		],
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
+		"passive_skills": [
+			"Boost the HP of characters with the Genius characteristic by a Medium amount",
+			"Boost the Attack of characters with the Adventure characteristic by a Medium amount",
+			"Boost the Attack of <span class='physical'><b>Physical</b></span> characters by a Medium amount"
+		],
+		"stats": {
+			"hp": "0",
+			"attack": "0",
+			"defence": "0",
+			"speed": "0"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "PP Candy",
+					"skill_description": "Inflict 600% damage to the target and roll back their skill gauge by 15%",
+					"initial_cooldown": "49",
+					"max_cooldown": "40"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "The Invention of a Genius",
+					"skill_description": "Boost the Attack of all main team allies by a Large amount for 2 turns",
+					"initial_cooldown": "37",
+					"max_cooldown": "28"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "Angry Shooting",
+					"skill_description": "Inflict 6 hits of 80% damage randomly to the enemy main team",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "My Sex Appeal Strategy",
+					"skill_description": "Chance to Charm all main team enemies for 2 turns",
+					"initial_cooldown": "46",
+					"max_cooldown": "37"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"physical-lead",
+			"attack-lead",
+			"stat-booster",
+			"hp-booster",
+			"characteristics-booster",
+			"genius-booster",
+			"attack-booster",
+			"adventure-booster",
+			"type-booster",
+			"physical-booster",
+			"single-hitter",
+			"single-target-single-hitter",
+			"rollback-cooldown",
+			"rollback-skill-cooldown",
+			"multi-hitter",
+			"main-target-multi-hitter",
+			"charmer"
+		]
+	},
 	"108001010": {
 		"name": "Taison Maeda",
 		"title": "Tokyo's Four Heavenly Kings, King of Kichijoji",
@@ -675,9 +1003,9 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Ultimate Attack Damage of all Strength team members by a Medium amount",
+			"Boost the Ultimate Attack Damage of all <span class='strength'><b>Strength</b></span> team members by a Medium amount",
 			"Boost the Skill Damage of all team members with the Delinquent characteristic by a Large amount",
 			"Roll Forward the Ultimate Attack and Skill cooldowns of all team members with the Delinquent characteristic by 5% at the start of battle"
 		],
@@ -729,7 +1057,7 @@
 			"characteristics-booster",
 			"delinquent-booster",
 			"cooldown-reducer",
-			"delinquent_cooldown-reducer",
+			"delinquent-cooldown-reducer",
 			"multi-hitter",
 			"single-target-multi-hitter",
 			"ignore-defence",
@@ -759,10 +1087,10 @@
 			"Protagonist",
 			"Flight"
 		],
-		"leader_skill": "Boost the HP of Heart units by an Extreme amount",
+		"leader_skill": "Boost the HP of <span class='heart'><b>Heart</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to enemies with the Ethereal characteristic",
-			"Boost the HP of all team members that are Heart type by a Medium amount",
+			"Boost the HP of all team members that are <span class='heart'><b>Heart</b></span> type by a Medium amount",
 			"When this units HP is 50% or less, boost this unit's Ultimate Attack damage by a Large amount"
 		],
 		"stats": {
@@ -798,7 +1126,7 @@
 			{
 				"skill_3": {
 					"skill_name": "Justice Offensive",
-					"skill_description": "If the target is Technique type then reduce their Defence by an Extreme amount, Inflict 210% damage to the target ",
+					"skill_description": "If the target is <span class='technique'><b>Technique</b></span> type then reduce their Defence by an Extreme amount, Inflict 210% damage to the target ",
 					"initial_cooldown": "37",
 					"max_cooldown": "28"
 				}
@@ -841,10 +1169,10 @@
 			"Ethereal",
 			"Disguise"
 		],
-		"leader_skill": "Boost the Chance of Critical Hits for Intelligence and Physical units by a Large amount",
+		"leader_skill": "Boost the Chance of Critical Hits for <span class='intelligence'><b>Intelligence</b></span> and <span class='physical'><b>Physical</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost this unit's Speed by a Medium amount",
-			"Boost the Speed of all team members that are Intelligence type by a Medium amount",
+			"Boost the Speed of all team members that are <span class='intelligence'><b>Intelligence</b></span> type by a Medium amount",
 			"Boost this unit's chance of Critical Hits by a Large amount"
 		],
 		"stats": {
@@ -923,10 +1251,10 @@
 			"Delinquent",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the chance of Critical Hits for Heart units by an Extreme amount",
+		"leader_skill": "Boost the chance of Critical Hits for <span class='heart'><b>Heart</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Delinquent characteristic",
-			"Boost the Attack of all team members that are Heart type",
+			"Boost the Attack of all team members that are <span class='heart'><b>Heart</b></span> type",
 			"Boost the HP of all team members by a Large amount"
 		],
 		"stats": {
@@ -1005,10 +1333,10 @@
 			"Fighting Spirit",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Technique units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='technique'><b>Technique</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to enemies with the Evil characteristic",
-			"Boost the Speed of all team members who are Technique type by a Medium amount",
+			"Boost the Speed of all team members who are <span class='technique'><b>Technique</b></span> type by a Medium amount",
 			"When this units HP is below 50%, boost this unit's Attack by a Large amount"
 		],
 		"stats": {
@@ -1088,10 +1416,10 @@
 			"Protagonist",
 			"Hot Blooded"
 		],
-		"leader_skill": "Boost the Attack of Technique, Strength and Physical units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='technique'><b>Technique</b></span>, <span class='strength'><b>Strength</b></span> and <span class='physical'><b>Physical</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to enemies with the Evil characteristic",
-			"Boost the Speed of all team members who are Technique type by a Medium amount",
+			"Boost the Speed of all team members who are <span class='technique'><b>Technique</b></span> type by a Medium amount",
 			"When this units HP is below 50%, boost this unit's Attack by a Large amount"
 		],
 		"stats": {
@@ -1180,7 +1508,7 @@
 			"Manliness",
 			"Master"
 		],
-		"leader_skill": "Boost the Attack of Strength, Technique and Heart units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span>, <span class='technique'><b>Technique</b></span> and <span class='heart'><b>Heart</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost this unit's chance of Critical Hits by a Large amount",
 			"Boost the Defence of all team members against attacks from enemies with the Protagonist characteristic by a Medium amount",
@@ -1260,7 +1588,7 @@
 			"Master",
 			"Persistent"
 		],
-		"leader_skill": "Boosts the Attack of Strength units by an Extreme amount",
+		"leader_skill": "Boosts the Attack of <span class='strength'><b>Strength</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's chance of Critical Hits by a Large amount",
 			"Boost the Defence of all team members against attacks from enemies with the Protagonist characteristic by a Medium amount",
@@ -1275,7 +1603,7 @@
 		"skill": [{
 				"ultimate": {
 					"skill_name": "Hisho Hakurei (Soaring White Grace) ",
-					"skill_description": "Boost this unit's Damage Dealt to Intelligence units by a Super Mega amount, boost unit's chance of Critical Hits by an Extreme amount and Inflict 1000% damage to the target",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='intelligence'><b>Intelligence</b></span> units by a Super Mega amount, boost unit's chance of Critical Hits by an Extreme amount and Inflict 1000% damage to the target",
 					"initial_cooldown": "42",
 					"max_cooldown": "33"
 				}
@@ -1347,10 +1675,10 @@
 			"Prodigy",
 			"Master"
 		],
-		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of Physical allies by a Medium amount",
-			"Boost the HP of Physical allies by a Medium amount",
+			"Boost the Attack of <span class='physical'><b>Physical</b></span> allies by a Medium amount",
+			"Boost the HP of <span class='physical'><b>Physical</b></span> allies by a Medium amount",
 			"When there are 5 or more allies, reduce their Damage received by a Medium amount"
 		],
 		"stats": {
@@ -1370,7 +1698,7 @@
 			{
 				"skill_1": {
 					"skill_name": "Ju no Ken",
-					"skill_description": "Boost this unit's Damage Dealt to Heart units by an Extreme amount for 2 turns and inflict 200% damage to the target",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> units by an Extreme amount for 2 turns and inflict 200% damage to the target",
 					"initial_cooldown": "30",
 					"max_cooldown": "21"
 				}
@@ -1386,7 +1714,7 @@
 			{
 				"skill_3": {
 					"skill_name": "Shinreidai",
-					"skill_description": "Boost Damage Dealt for all allies (Excluding this unit) by a Medium amount for 3 turns, if they are Physical type boost by a Large amount instead, furthermore, boost the Attack of units with the Fighting Spirit characteristic by a Large amount for 3 turns",
+					"skill_description": "Boost Damage Dealt for all allies (Excluding this unit) by a Medium amount for 3 turns, if they are <span class='physical'><b>Physical</b></span> type boost by a Large amount instead, furthermore, boost the Attack of units with the Fighting Spirit characteristic by a Large amount for 3 turns",
 					"initial_cooldown": "31",
 					"max_cooldown": "22"
 				}
@@ -1427,10 +1755,10 @@
 			"Heroine",
 			"Fighting Spirit"
 		],
-		"leader_skill": "Boosts the HP of Strength and Technique units by a Large amount",
+		"leader_skill": "Boosts the HP of <span class='strength'><b>Strength</b></span> and <span class='technique'><b>Technique</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost this unit's Defence against attacks from enemies with the Evil characteristic",
-			"Boost the HP of Technique allies by a Medium amount",
+			"Boost the HP of <span class='technique'><b>Technique</b></span> allies by a Medium amount",
 			"Charge this unit's skill gauge by 10% once from the start of battle"
 		],
 		"stats": {
@@ -1516,9 +1844,9 @@
 			"Superhuman",
 			"Rival"
 		],
-		"leader_skill": "Boost the Defence of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Defence of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the HP of Physical allies",
+			"Boost the HP of <span class='physical'><b>Physical</b></span> allies",
 			"Prevent stun debuff once for this unit",
 			"Boost ally defences against enemies with the Fighting Spirit characteristic"
 		],
@@ -1531,7 +1859,7 @@
 		"skill": [{
 				"ultimate": {
 					"skill_name": "Gokuto Ken",
-					"skill_description": "Inflict 400% damage to target enemy + if target enemy is Heart type decrease their defence by a Large amount",
+					"skill_description": "Inflict 400% damage to target enemy + if target enemy is <span class='heart'><b>Heart</b></span> type decrease their defence by a Large amount",
 					"initial_cooldown": "54",
 					"max_cooldown": "45"
 				}
@@ -1555,7 +1883,7 @@
 			{
 				"skill_3": {
 					"skill_name": "KINGs Army",
-					"skill_description": "Boost the defence of main team Physical allies by an Extreme amount for 4 turns and roll-back enemy main team cooldowns by 15%",
+					"skill_description": "Boost the defence of main team <span class='physical'><b>Physical</b></span> allies by an Extreme amount for 4 turns and roll-back enemy main team cooldowns by 15%",
 					"initial_cooldown": "39",
 					"max_cooldown": "30"
 				}
@@ -1604,10 +1932,10 @@
 			"Order",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the chance of Critical Hits for Physical units by an Extreme amount",
+		"leader_skill": "Boost the chance of Critical Hits for <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Order characteristic",
-			"Boost the Ultimate Attack Damage of all team members that are Physical type",
+			"Boost the Ultimate Attack Damage of all team members that are <span class='physical'><b>Physical</b></span> type",
 			"When the number of team members is 3 or less, all members of your team will gain an additional attack per turn"
 		],
 		"stats": {
@@ -1685,10 +2013,10 @@
 			"Trouble Maker",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the HP of Technique units by an Extreme amount",
+		"leader_skill": "Boost the HP of <span class='technique'><b>Technique</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost Speed by a Medium amount",
-			"Boost the Defence of all team members against attacks from Technique enemies",
+			"Boost the Defence of all team members against attacks from <span class='technique'><b>Technique</b></span> enemies",
 			"When this units HP is below 50%, boost the Speed of all team members by a Large amount"
 		],
 		"stats": {
@@ -1764,10 +2092,10 @@
 			"Water",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost the unit's chance of Critical Hits",
-			"Boost the chance of Critical Hits for all team members that are Heart type by a Medium amount",
+			"Boost the chance of Critical Hits for all team members that are <span class='heart'><b>Heart</b></span> type by a Medium amount",
 			"When this unit's HP is 50% or less, boost this unit's Attack by a Large amount"
 		],
 		"stats": {
@@ -1846,9 +2174,9 @@
 			"Protagonist",
 			"Glasses"
 		],
-		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost this unit's Attack by a Large amount against Heart enemies",
+			"Boost this unit's Attack by a Large amount against <span class='heart'><b>Heart</b></span> enemies",
 			"Boost this unit's Defence by a Super Mega amount against enemies with the Hand to Hand Combat characteristic",
 			"Twice from the start of battle, prevent Stat Debuffs on this unit"
 		],
@@ -1869,7 +2197,7 @@
 			{
 				"skill_1": {
 					"skill_name": "Tsukurakku",
-					"skill_description": "Boost this unit's Damage Dealt to Heart units by a Mega amount for 3 turns",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> units by a Mega amount for 3 turns",
 					"initial_cooldown": "32",
 					"max_cooldown": "23"
 				}
@@ -1924,14 +2252,14 @@
 		"characteristics": [
 			"Student",
 			"Artificial",
-			"Superhuman Strength",
+			"Superhuman <span class='strength'><b>Strength</b></span>",
 			"Pure",
 			"Order",
 			"Glasses"
 		],
-		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of all Physical team members by a Medium amount",
+			"Boost the Attack of all <span class='physical'><b>Physical</b></span> team members by a Medium amount",
 			"Boost the Ultimate Attack Damage of all team members with the Artificial characteristic by a Medium amount",
 			"Reduce the Damage Received by all team members with the Artificial characteristic by a Medium amount"
 		],
@@ -1944,7 +2272,7 @@
 		"skill": [{
 				"ultimate": {
 					"skill_name": "Attack: Excuse me, I'm sorry",
-					"skill_description": "Boost this unit's Damage Dealt to Heart units by an Extreme amount for 1 turn and inflict 700% damage to the target",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> units by an Extreme amount for 1 turn and inflict 700% damage to the target",
 					"initial_cooldown": "46",
 					"max_cooldown": "37"
 				}
@@ -1952,7 +2280,7 @@
 			{
 				"skill_1": {
 					"skill_name": "Greeting Gift",
-					"skill_description": "Heal all allies (not including this unit) by a Medium amount, if they are Physical type then boost their Damage Dealt to Heart units by an Extreme amount for 1 turn",
+					"skill_description": "Heal all allies (not including this unit) by a Medium amount, if they are <span class='physical'><b>Physical</b></span> type then boost their Damage Dealt to <span class='heart'><b>Heart</b></span> units by an Extreme amount for 1 turn",
 					"initial_cooldown": "42",
 					"max_cooldown": "33"
 				}
@@ -1960,7 +2288,7 @@
 			{
 				"skill_2": {
 					"skill_name": "Loving Earth",
-					"skill_description": "Inflict 250% to the enemy main team, if they are Heart type, Roll Back their Skill and Ultimate Attack cooldowns by 5%",
+					"skill_description": "Inflict 250% to the enemy main team, if they are <span class='heart'><b>Heart</b></span> type, Roll Back their Skill and Ultimate Attack cooldowns by 5%",
 					"initial_cooldown": "39",
 					"max_cooldown": "30"
 				}
@@ -2013,7 +2341,7 @@
 			"Hot Blooded",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength and Physical units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> and <span class='physical'><b>Physical</b></span> units by a Large amount",
 		"passive_skills": [
 			"Boost this unit's Damage Dealt to units with the Hand to Hand Combat characteristic",
 			"25% chance for this unit to counter any normal attack",
@@ -2036,7 +2364,7 @@
 			{
 				"skill_1": {
 					"skill_name": "Boomerang Hook",
-					"skill_description": "Inflict 100% damage to the target enemy and there is a chance to seal their Ultimate Attack, If the enemy is Intelligence type, the seal is guaranteed for 2 turns ",
+					"skill_description": "Inflict 100% damage to the target enemy and there is a chance to seal their Ultimate Attack, If the enemy is <span class='intelligence'><b>Intelligence</b></span> type, the seal is guaranteed for 2 turns ",
 					"initial_cooldown": "44",
 					"max_cooldown": "35"
 				}
@@ -2094,10 +2422,10 @@
 			"Hard Worker",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Defence of Intelligence units by an Extreme amount",
+		"leader_skill": "Boost the Defence of <span class='intelligence'><b>Intelligence</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Boost this unit's Defence against attacks from enemies with the Athlete characteristic",
-			"Boost the HP of all team members that are Intelligence type by a Medium amount",
+			"Boost the HP of all team members that are <span class='intelligence'><b>Intelligence</b></span> type by a Medium amount",
 			"When this units HP is 50% or less, boost this unit's Attack by a Large amount"
 		],
 		"stats": {
@@ -2163,6 +2491,89 @@
 			"athlete-booster"
 		]
 	},
+	"152001010": {
+		"name": "Gin",
+		"title": "Silver General Officer",
+		"era": "1980",
+		"type": "agile",
+		"class": "support",
+		"series": "Ginga: Nareboshi Gin",
+		"obtainable": "f2p",
+		"image_card_path": "assets/images/cards/Gin.png",
+		"image_portrait_path": "assets/images/portraits/Gin.png",
+		"characteristics": [
+			"Natural",
+			"Persistent",
+			"Hot Blooded",
+			"Protagonist"
+		],
+		"leader_skill": "Boost the chance of Critical Hits for <span class='agile'><b>Agile</b></span> units by an Extreme amount",
+		"passive_skills": [
+			"Boost Speed by a Medium amount",
+			"Boost Speed for <span class='agile'><b>Agile</b></span> allies by a Medium amount",
+			"Boost the chance of Critical Hits by a Large amount"
+		],
+		"stats": {
+			"hp": "7877",
+			"attack": "1478",
+			"defence": "1146",
+			"speed": "27"
+		},
+		"skill": [{
+				"ultimate": {
+					"skill_name": "Absolute Wolf Sword Fangs",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='strength'><b>Strength</b></span> units by a Super Mega amount for 2 turns and inflict 710% damage to the target",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
+				}
+			},
+			{
+				"skill_1": {
+					"skill_name": "Silver's Roar",
+					"skill_description": "Negate all positive buffs on the enemy main team",
+					"initial_cooldown": "59",
+					"max_cooldown": "50"
+				}
+			},
+			{
+				"skill_2": {
+					"skill_name": "Bear Dog's Power",
+					"skill_description": "Boost the Defence of main team allies by a Large amount for 4 turns and apply an Auto Recovery buff (+100 HP per turn) for main team allies for 4 turns",
+					"initial_cooldown": "54",
+					"max_cooldown": "45"
+				}
+			},
+			{
+				"skill_3": {
+					"skill_name": "Tiger-like",
+					"skill_description": "Inflict 220% damage to the target, furthermore, if they have the Nature characteristic inflict a Bleeding state for 4 turns",
+					"initial_cooldown": "39",
+					"max_cooldown": "30"
+				}
+			}
+		],
+		"categories": [
+			"extreme-lead",
+			"agile-lead",
+			"critical-chance-lead",
+			"stat-booster",
+			"speed-booster",
+			"type-booster",
+			"agile-booster",
+			"critical-chance-booster",
+			"anti-type",
+			"anti-strength",
+			"single-hitter",
+			"single-target-single-hitter",
+			"enemy-main-positive-buff-negator",
+			"defence-booster",
+			"eot-healer",
+			"main-eot-healer",
+			"anti-characteristics",
+			"anti-nature",
+			"bleeder"
+		]
+	},
 	"167001010": {
 		"name": "Suguru Kinniku",
 		"title": "Prince of Planet Kinniku",
@@ -2181,11 +2592,11 @@
 			"Alien",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of Physical team members by a Medium amount",
-			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
-			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
+			"Boost the Attack of <span class='physical'><b>Physical</b></span> team members by a Medium amount",
+			"Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> units by an Extreme amount",
+			"When this unit has 30% HP or more, reduce the Damage Received from <span class='heart'><b>Heart</b></span> enemies for all allies by a Large amount"
 		],
 		"stats": {
 			"hp": "0",
@@ -2261,11 +2672,11 @@
 			"Alien",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Strength and Physical units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='strength'><b>Strength</b></span> and <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of Physical team members by a Medium amount",
-			"Boost this unit's Damage Dealt to Heart units by an Extreme amount",
-			"When this unit has 30% HP or more, reduce the Damage Received from Heart enemies for all allies by a Large amount"
+			"Boost the Attack of <span class='physical'><b>Physical</b></span> team members by a Medium amount",
+			"Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> units by an Extreme amount",
+			"When this unit has 30% HP or more, reduce the Damage Received from <span class='heart'><b>Heart</b></span> enemies for all allies by a Large amount"
 		],
 		"stats": {
 			"hp": "0",
@@ -2276,7 +2687,7 @@
 		"skill": [{
 				"ultimate": {
 					"skill_name": "Kinniku Driver",
-					"skill_description": "Boost this unit's Damage Dealt to Heart enemies by a Mega amount for 1 turn, inflict 600% damage to the target and a further 400% damage to all enemies",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='heart'><b>Heart</b></span> enemies by a Mega amount for 1 turn, inflict 600% damage to the target and a further 400% damage to all enemies",
 					"initial_cooldown": "42",
 					"max_cooldown": "33"
 				}
@@ -2308,7 +2719,7 @@
 			{
 				"skill_4": {
 					"skill_name": "The Power of Friendship",
-					"skill_description": "Boost the Attack of all Physical team members by an Extreme amount for 2 turns and make them immune to Ultimate Attack Rollback for 2 turns ",
+					"skill_description": "Boost the Attack of all <span class='physical'><b>Physical</b></span> team members by an Extreme amount for 2 turns and make them immune to Ultimate Attack Rollback for 2 turns ",
 					"initial_cooldown": "27",
 					"max_cooldown": "18"
 				}
@@ -2350,9 +2761,9 @@
 			"Persistent",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Agile and Technique units by a Large amount",
+		"leader_skill": "Boost the Attack of <span class='agile'><b>Agile</b></span> and <span class='technique'><b>Technique</b></span> units by a Large amount",
 		"passive_skills": [
-			"Boost the Attack of all team members that are Technique type by a Large amount",
+			"Boost the Attack of all team members that are <span class='technique'><b>Technique</b></span> type by a Large amount",
 			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
 			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
 		],
@@ -2433,9 +2844,9 @@
 			"Persistent",
 			"Protagonist"
 		],
-		"leader_skill": "Boost the Attack of Agile and Technique units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='agile'><b>Agile</b></span> and <span class='technique'><b>Technique</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of all team members that are Technique type by a Large amount",
+			"Boost the Attack of all team members that are <span class='technique'><b>Technique</b></span> type by a Large amount",
 			"Once at the start of battle, roll forward the skill gauge of all team members with the Athlete characteristic by 5%",
 			"When this unit's HP is above 50%, boost the number of normal attacks by +1 for all team members with the Athlete characteristic"
 		],
@@ -2480,7 +2891,7 @@
 			{
 				"skill_4": {
 					"skill_name": "Miracle Shot",
-					"skill_description": "Boost this unit's Damage Dealt to Physical enemies by an Extreme amount and inflict 300% damage to all enemy supports",
+					"skill_description": "Boost this unit's Damage Dealt to <span class='physical'><b>Physical</b></span> enemies by an Extreme amount and inflict 300% damage to all enemy supports",
 					"initial_cooldown": "31",
 					"max_cooldown": "22"
 				}
@@ -2525,7 +2936,7 @@
 			"Athlete",
 			"Hot Blooded"
 		],
-		"leader_skill": "Boost the Defence of Physical units by an Extreme amount",
+		"leader_skill": "Boost the Defence of <span class='physical'><b>Physical</b></span> units by an Extreme amount",
 		"passive_skills": [
 			"Guard all allies from normal attacks",
 			"Boost the Defence of all team members with the Athlete characteristic by a Medium amount",
@@ -2599,9 +3010,9 @@
 			"Protagonist",
 			"Adventure"
 		],
-		"leader_skill": "Boost the Attack of Agile units by an Extreme amount",
+		"leader_skill": "Boost the Attack of <span class='agile'><b>Agile</b></span> units by an Extreme amount",
 		"passive_skills": [
-			"Boost the Attack of all members of your team that are Agile type by a Medium amount",
+			"Boost the Attack of all members of your team that are <span class='agile'><b>Agile</b></span> type by a Medium amount",
 			"Boost this unit's Damage Dealt to enemies with the Alien characteristic by a Large amount",
 			"Boost the Defence of all members of your team with the Heroine characteristic by an Extreme amount"
 		],
